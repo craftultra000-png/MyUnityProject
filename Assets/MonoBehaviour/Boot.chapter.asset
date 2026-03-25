@@ -1,0 +1,7176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1968524843, guid: 60896fef373ca72d2a5d535c55f6b2e1, type: 3}
+  m_Name: Boot.chapter
+  m_EditorClassIdentifier:
+  chapterName: Boot
+  dataList:
+  - {fileID: 11400000, guid: e8636c78c7536524cb59174da3028f6b, type: 2}
+  - {fileID: 11400000, guid: 38ae8ee95486ac047964c95ad4d5b3c7, type: 2}
+  settingList:
+  - rows:
+    - rowIndex: 0
+      strings:
+      - CharacterName
+      - NameText
+      - Pattern
+      - X
+      - Y
+      - Z
+      - Pivot
+      - Scale
+      - Conditional
+      - FileName
+      - SubFileName
+      - FileType
+      - Animation
+      - RenderTexture
+      - RenderRect
+      - EyeBlink
+      - LipSynch
+      - Icon
+      - IconSubFileName
+      - IconRect
+      - IconAutoFlip
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:Character
+    type: 1
+    textLength: 166
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - Label
+      - Type
+      - X
+      - Y
+      - Z
+      - Pivot
+      - Scale
+      - Conditional
+      - FileName
+      - FileType
+      - SubFileName
+      - Animation
+      - RenderTexture
+      - RenderRect
+      - Thumbnail
+      - CgCategolly
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:Texture
+    type: 1
+    textLength: 112
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - Label
+      - FileName
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:Particle
+    type: 1
+    textLength: 13
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - LayerName
+      - Type
+      - X
+      - Y
+      - Order
+      - LayerMask
+      - ScaleX
+      - ScaleY
+      - FlipX
+      - FlipY
+      - Width
+      - Height
+      - BorderLeft
+      - BorderRight
+      - BorderTop
+      - BorderBottom
+      - Align
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:Layer
+    type: 1
+    textLength: 109
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - Label
+      - IntervalMin
+      - IntervalMax
+      - RandomDouble
+      - Tag
+      - Name0
+      - Duration0
+      - Name1
+      - Duration1
+      - Name2
+      - Duration2
+      - Name3
+      - Duration3
+      - Name4
+      - Duration4
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:EyeBlink
+    type: 1
+    textLength: 112
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - Label
+      - Type
+      - Interval
+      - Tag
+      - ScaleVoiceVolume
+      - Name0
+      - Duration0
+      - Name1
+      - Duration1
+      - Name2
+      - Duration2
+      - Name3
+      - Duration3
+      - Name4
+      - Duration4
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:LipSynch
+    type: 1
+    textLength: 106
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - '*SampleAnimation'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1
+      strings:
+      - Time
+      - 0
+      - .5
+      - 1
+      - 1.5
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 2
+      strings:
+      - X
+      - 0
+      - 
+      - 0
+      - 0
+      - 100
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 3
+      strings:
+      - Y
+      - -50
+      - 50
+      - 0
+      - 0
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 4
+      strings:
+      - Angle
+      - 0
+      - 
+      - 0
+      - 0
+      - 360
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 5
+      strings:
+      - ScaleX
+      - .2
+      - 1.2
+      - 1
+      - 1
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 6
+      strings:
+      - ScaleY
+      - .2
+      - 1.2
+      - 1
+      - 1
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 7
+      strings:
+      - Alpha
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:Animation
+    type: 1
+    textLength: 93
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - Label
+      - Title
+      - Type
+      - FileName
+      - IntroTime
+      - Volume
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:Sound
+    type: 1
+    textLength: 37
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - Label
+      - Type
+      - Value
+      - FileType
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1
+      strings:
+      - scene_gallery
+      - Bool
+      - FALSE
+      - System
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 2
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 3
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 4
+      strings:
+      - Name
+      - String
+      - Character
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 5
+      strings:
+      - Name2
+      - String
+      - Character2
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 6
+      strings:
+      - Name3
+      - String
+      - Character3
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 7
+      strings:
+      - BarkName
+      - String
+      - Character
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 8
+      strings:
+      - BarkName2
+      - String
+      - Character2
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 9
+      strings:
+      - BarkName3
+      - String
+      - Character3
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 10
+      strings:
+      - TalkName
+      - String
+      - Character
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 11
+      strings:
+      - TalkName2
+      - String
+      - Character2
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 12
+      strings:
+      - TalkName3
+      - String
+      - Character3
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 13
+      strings:
+      - TalkR_False
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 14
+      strings:
+      - TalkR_True
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 15
+      strings:
+      - BarkR_False
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 16
+      strings:
+      - BarkR_True
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 17
+      strings:
+      - UnTalk
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 18
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 19
+      strings:
+      - MouthGag
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 20
+      strings:
+      - Squeeze
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 21
+      strings:
+      - OverHeat
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 22
+      strings:
+      - Sleep
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 23
+      strings:
+      - FirstChild
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 24
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 25
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 26
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 27
+      strings:
+      - FirstBriefingTalk
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 28
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 29
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 30
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 31
+      strings:
+      - ResultStatus
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 32
+      strings:
+      - ResultJob
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 33
+      strings:
+      - ResultVirsin
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 34
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 35
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 36
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 37
+      strings:
+      - Selection1
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 38
+      strings:
+      - Selection2
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 39
+      strings:
+      - Selection3
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 40
+      strings:
+      - Selection4
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 41
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 42
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 43
+      strings:
+      - Chapter
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 44
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 45
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 46
+      strings:
+      - CheckParam
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 47
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 48
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 49
+      strings:
+      - RoomLight
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 50
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 51
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 52
+      strings:
+      - Libido
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 53
+      strings:
+      - PlayerOrgasmEvent
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 54
+      strings:
+      - EnemyOrgasmEvent
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 55
+      strings:
+      - PlayerOrgasmTalk
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 56
+      strings:
+      - EnemyOrgasmTalk
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 57
+      strings:
+      - PlayerOrgasm
+      - Float
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 58
+      strings:
+      - EnemyOrgasm
+      - Float
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 59
+      strings:
+      - Pillow
+      - Float
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 60
+      strings:
+      - Skull
+      - Float
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 61
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 62
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 63
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 64
+      strings:
+      - TalkCard_Before
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 65
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 66
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 67
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 68
+      strings:
+      - LookCount
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:Param
+    type: 1
+    textLength: 950
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - Name
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1
+      strings:
+      - Type
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 2
+      strings:
+      - FileType
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:ParamTbl{}
+    type: 1
+    textLength: 16
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - ScenarioLabel
+      - Title
+      - Thumbnail
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:SceneGallery
+    type: 1
+    textLength: 27
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      strings:
+      - Key
+      - English
+      - Japanese
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 2
+      strings:
+      - tmp
+      - tmp
+      - tmp
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 3
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 4
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 5
+      strings:
+      - Vein
+      - Vein
+      - ヴェイン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 6
+      strings:
+      - Artery
+      - Artery
+      - アーテリー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 7
+      strings:
+      - Orifice
+      - Orifice
+      - オリフィス
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 8
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 9
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 10
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 11
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 12
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 13
+      strings:
+      - Title
+      - Title
+      - タイトル
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 14
+      strings:
+      - Return Title
+      - Return Title
+      - タイトルに戻る
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 15
+      strings:
+      - Game Start
+      - Game Start
+      - ゲーム開始
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 16
+      strings:
+      - Prologue
+      - Prologue
+      - プロローグ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 17
+      strings:
+      - FirstStartPrologue
+      - See the Prologue?
+      - プロローグを見ますか？
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 18
+      strings:
+      - Option
+      - Option
+      - オプション
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 19
+      strings:
+      - Pause
+      - Pause
+      - ポーズ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 20
+      strings:
+      - Screen Size
+      - Screen Size
+      - スクリーンサイズ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 21
+      strings:
+      - Full Screen
+      - Full Screen
+      - フルスクリーン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 22
+      strings:
+      - Window
+      - Window
+      - ウィンドウ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 23
+      strings:
+      - Set
+      - Set
+      - セット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 24
+      strings:
+      - Language
+      - Language
+      - 言語
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 25
+      strings:
+      - English
+      - English
+      - 英語
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 26
+      strings:
+      - Japanese
+      - Japanese
+      - 日本語
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 27
+      strings:
+      - Sound Volume
+      - Sound Volume
+      - 音量
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 28
+      strings:
+      - Voice
+      - Voice
+      - 音声
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 29
+      strings:
+      - Mouse Sensitivity
+      - Mouse Sensitivity
+      - マウス感度
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 30
+      strings:
+      - Wheel Sensitivity
+      - Wheel Sensitivity
+      - ホイール感度
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 31
+      strings:
+      - Key Sensitivity
+      - Key Sensitivity
+      - キー感度
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 32
+      strings:
+      - Outline
+      - Outline
+      - アウトライン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 33
+      strings:
+      - Restart
+      - Restart
+      - リスタート
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 34
+      strings:
+      - GameEnd
+      - GameEnd
+      - ゲーム終了
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 35
+      strings:
+      - Cancel
+      - Cancel
+      - キャンセル
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 36
+      strings:
+      - Open
+      - Open
+      - 開く
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 37
+      strings:
+      - Respawn
+      - Respawn
+      - リスポン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 38
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 39
+      strings:
+      - Switch
+      - Switch
+      - 切り替え
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 40
+      strings:
+      - WheelSwitchFalse
+      - 'W/D-key: Up/Down\nWheel: Zoom'
+      - 'W/Dキー: 上下移動\nホイール: ズーム'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 41
+      strings:
+      - WheelSwitchTrue
+      - 'W/D-key: Zoom\nWheel: Up/Down'
+      - 'W/Dキー: ズーム\nホイール:上下移動'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 42
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 43
+      strings:
+      - Onomatopoeia
+      - Onomatopoeia
+      - 擬音
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 44
+      strings:
+      - Off
+      - Off
+      - オフ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 45
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 46
+      strings:
+      - Costume Color
+      - Costume Color
+      - 衣装カラー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 47
+      strings:
+      - Hair Color
+      - Hair Color
+      - 髪カラー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 48
+      strings:
+      - Eyes Color
+      - Eyes Color
+      - 目カラー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 49
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 50
+      strings:
+      - Pony
+      - Pony
+      - ポニー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 51
+      strings:
+      - Twin
+      - Twin
+      - ツイン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 52
+      strings:
+      - Short
+      - Short
+      - ショート
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 53
+      strings:
+      - Hide Hair
+      - Hide
+      - 目隠れ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 54
+      strings:
+      - Blunt
+      - Blunt
+      - ぱっつん
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 55
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 56
+      strings:
+      - Pubic Hair
+      - Pubic Hair
+      - 陰毛
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 57
+      strings:
+      - Lewd Crest
+      - Lewd Crest
+      - 淫紋
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 58
+      strings:
+      - Wet
+      - Wet
+      - ウェット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 59
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 60
+      strings:
+      - Empty
+      - Empty
+      - 消失
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 61
+      strings:
+      - Heart
+      - Heart
+      - ハート
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 62
+      strings:
+      - Tear
+      - Tear
+      - 涙
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 63
+      strings:
+      - Sleep
+      - Sleep
+      - 眠り
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 64
+      strings:
+      - CloseEyes
+      - Close
+      - 閉じる
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 65
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 66
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 67
+      strings:
+      - Game Over
+      - Game Over
+      - Game Over
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 68
+      strings:
+      - Stage End
+      - Stage End
+      - Stage End
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 69
+      strings:
+      - Game End
+      - Game End
+      - Game End
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 70
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 71
+      strings:
+      - Now Lodaing
+      - Now Lodaing
+      - 読み込み中
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 72
+      strings:
+      - Camera
+      - Camera
+      - カメラ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 73
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 74
+      strings:
+      - Masturbation
+      - Masturbation
+      - オナニー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 75
+      strings:
+      - Start
+      - Start
+      - スタート
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 76
+      strings:
+      - Finish
+      - Finish
+      - フィニッシュ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 77
+      strings:
+      - Pose
+      - Pose
+      - ポーズ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 78
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 79
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 80
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 81
+      strings:
+      - Prologue
+      - Prologue
+      - プロローグ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 82
+      strings:
+      - Chapter 1
+      - Chapter 1
+      - 1章
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 83
+      strings:
+      - Chapter 2
+      - Chapter 2
+      - 2章
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 84
+      strings:
+      - Chapter 3
+      - Chapter 3
+      - 3章
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 85
+      strings:
+      - Chapter 4
+      - Chapter 4
+      - 4章
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 86
+      strings:
+      - Epilogue
+      - Epilogue
+      - エピローグ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 87
+      strings:
+      - Ending
+      - Ending
+      - エンディング
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 88
+      strings:
+      - Default
+      - Default
+      - デフォルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 89
+      strings:
+      - Skip Bed
+      - Skip Bed
+      - ベッドから
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 90
+      strings:
+      - Skip Bath
+      - Skip Bath
+      - お風呂から
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 91
+      strings:
+      - Skip Road
+      - Skip Road
+      - 通路から
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 92
+      strings:
+      - Skip Church
+      - Skip Church
+      - 教会から
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 93
+      strings:
+      - Question
+      - '????'
+      - ？？？？
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 94
+      strings:
+      - Stage
+      - Stage
+      - ステージ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 95
+      strings:
+      - Character
+      - Character
+      - キャラクター
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 96
+      strings:
+      - Stage Select
+      - Stage Select
+      - ステージ選択
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 97
+      strings:
+      - Costume
+      - Costume
+      - コスチューム
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 98
+      strings:
+      - Story Select
+      - Story Select
+      - ストーリー選択
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 99
+      strings:
+      - Free Play
+      - Free Play
+      - フリープレイ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 100
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 101
+      strings:
+      - NextChapter
+      - Next Chapter
+      - 次の章へ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 102
+      strings:
+      - Ending
+      - Ending
+      - エンディング
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 103
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 104
+      strings:
+      - Now Loading
+      - Now Loading
+      - 読み込み中
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 105
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 106
+      strings:
+      - SubTitle0
+      - Before the Dream
+      - おやすみの前
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 107
+      strings:
+      - SubTitle1
+      - Our First Night
+      - 初めての夜
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 108
+      strings:
+      - SubTitle2
+      - Darkness
+      - 暗闇
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 109
+      strings:
+      - SubTitle3
+      - Another Area
+      - 別の場所
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 110
+      strings:
+      - SubTitle4
+      - The Predecessor
+      - 前任者
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 111
+      strings:
+      - SubTitle5
+      - Twilight Screen
+      - 黄昏のスクリーン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 112
+      strings:
+      - SubTitle6
+      - In Lewd Dream
+      - えっちなユメのナカ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 113
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 114
+      strings:
+      - Sister Cap
+      - Sister Cap
+      - シスターキャップ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 115
+      strings:
+      - Sister Veil
+      - Sister Veil
+      - シスターヴェール
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 116
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 117
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 118
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 119
+      strings:
+      - Break Clothes
+      - Break Clothes
+      - 衣装破壊
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 120
+      strings:
+      - Dance Start
+      - Dance Start
+      - ダンススタート
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 121
+      strings:
+      - Dance
+      - Dance
+      - ダンス
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 122
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 123
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 124
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 125
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 126
+      strings:
+      - Select
+      - Select
+      - 選択
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 127
+      strings:
+      - Action
+      - Action
+      - アクション
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 128
+      strings:
+      - Hide
+      - Hide
+      - 非表示
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 129
+      strings:
+      - Show
+      - Show
+      - 表示
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 130
+      strings:
+      - Skip
+      - Skip
+      - スキップ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 131
+      strings:
+      - ChoicePrologue
+      - Play the prologue?
+      - プロローグを再生しますか？
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 132
+      strings:
+      - Play
+      - Play
+      - プレイ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 133
+      strings:
+      - ReadManual
+      - Read the manual?
+      - マニュアルを見ますか？
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 134
+      strings:
+      - ReadManual2
+      - Can read the manual from the in-game options or the title screen.
+      - マニュアルはプレイ中のオプション、タイトルから見れます。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 135
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 136
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 137
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 138
+      strings:
+      - Debug1
+      - Debug1
+      - デバッグ1
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 139
+      strings:
+      - Debug2
+      - Debug2
+      - デバッグ2
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 140
+      strings:
+      - Debug3
+      - Debug3
+      - デバッグ3
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 141
+      strings:
+      - Debug4
+      - Debug4
+      - デバッグ4
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 142
+      strings:
+      - Debug5
+      - Debug5
+      - デバッグ5
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 143
+      strings:
+      - Debug6
+      - Debug6
+      - デバッグ6
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 144
+      strings:
+      - Debug7
+      - Debug7
+      - デバッグ7
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 145
+      strings:
+      - Debug8
+      - Debug8
+      - デバッグ8
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 146
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 147
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 148
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 149
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 150
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 151
+      strings:
+      - Manual0-1
+      - Basic Controls
+      - 基本操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 152
+      strings:
+      - Manual0-2
+      - Wheel click or C key to switch camera.
+      - ホイールクリック、Cキーでカメラ切り替え
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 153
+      strings:
+      - Manual0-3
+      - Keyboard Controls
+      - キーボード操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 154
+      strings:
+      - Manual0-4
+      - Mouse Controls
+      - マウス操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 155
+      strings:
+      - Manual0-5
+      - 'Mouse: Camera Control'
+      - マウス：カメラ操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 156
+      strings:
+      - Manual0-6
+      - 'ASDW Keys: Camera Control'
+      - ASDWキー：カメラ操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 157
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 158
+      strings:
+      - Manual1-1
+      - Battle Controls
+      - バトル操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 159
+      strings:
+      - Manual1-2
+      - Cards can also be selected using the 1-5 keys.
+      - カードは１～５キーでも選択可能
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 160
+      strings:
+      - Manual1-3
+      - Keyboard Controls
+      - キーボード操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 161
+      strings:
+      - Manual1-4
+      - Mouse Controls
+      - マウス操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 162
+      strings:
+      - Manual1-5
+      - "Wheel: Select Card\nLeft Click: Use Card\nRight Click: + Card Action"
+      - "ホイール：カード選択\n左クリック：カード使用\n右クリック：＋カードのアクション"
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 163
+      strings:
+      - Manual1-6
+      - "QE, Arrow Up/Down Keys: Select Card\nSpace, Enter: Use Card\nShift Key: + Card Action"
+      - "QEキー、カーソル上下キー：カード選択\nスペース、エンター：カード使用\nShiftキー：＋カードのアクション"
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 164
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 165
+      strings:
+      - Manual2-1
+      - "In this game, you play cards from your hand to advance in battle.\nThe cards are used to change the parameters of the game."
+      - "このゲームは手札からカードを出してバトルを進めていきます。\nカードを使うと画面上にある数値が変化していきます。"
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 166
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 167
+      strings:
+      - Manual3-1
+      - Play Limit
+      - プレイリミット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 168
+      strings:
+      - Manual3-2
+      - "The game ends when the Dreamcatcher's parameters reaches 0.\nEvents will occur at 25, 50, and 75."
+      - "ドリームキャッチャーの数値が0になるとゲーム終了です。\n25、50、75でイベントが発生が発生します。"
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 169
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 170
+      strings:
+      - Manual4-1
+      - Player Life
+      - プレイヤー　ライフ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 171
+      strings:
+      - Manual4-2
+      - Vacua Life
+      - ヴァクア　ライフ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 172
+      strings:
+      - Manual4-3
+      - When Life reaches 100, an event will occur.
+      - ライフは100になるとイベントが発生します。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 173
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 174
+      strings:
+      - Manual5-1
+      - Hand of Cards
+      - 手札
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 175
+      strings:
+      - Manual5-2
+      - "These are cards that players can use.\nCards with a + mark change their motion when you hold down the right click."
+      - "手札の一覧です。\n＋が付いたカードは右クリック長押しでモーションが変わります。"
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 176
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 177
+      strings:
+      - Manual6-1
+      - Player Damage
+      - プレイヤー　ダメージ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 178
+      strings:
+      - Manual6-2
+      - Vacua Damage
+      - ヴァクア　ダメージ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 179
+      strings:
+      - Manual6-3
+      - Play Limit
+      - プレイリミット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 180
+      strings:
+      - Manual6-4
+      - "Using a card applies damage and limit.\nThe + mark damage is applied when you right click."
+      - "カードを使用するとダメージとリミットが反映されます。\n右クリック時に+マークが反映されます。"
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 181
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 182
+      strings:
+      - Manual7-1
+      - Turn Count
+      - ターンカウント
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 183
+      strings:
+      - Manual7-2
+      - "Stars decrease by the number on the card, and when they reach 0, the turn changes.\nPlaying a gear mark forces a turn change."
+      - "カードを出すたびに星は減っていきます。0になると相手ターンになります。\nカードに書かれた星の数だけ減り、歯車を出すと星は0になります。"
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 184
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 185
+      strings:
+      - Manual8-1
+      - You can switch the camera using the Wheel Click or C Key.
+      - ホイールクリック、Cキーでカメラを切り替えられます。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 186
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 187
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 188
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 189
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 190
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 191
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 192
+      strings:
+      - Skill List
+      - Skill List
+      - スキルリスト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 193
+      strings:
+      - Pose List
+      - Pose List
+      - ポーズリスト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 194
+      strings:
+      - Costume List
+      - Costume List
+      - 衣装リスト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 195
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 196
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 197
+      strings:
+      - Attack
+      - Attack
+      - アタック
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 198
+      strings:
+      - Support
+      - Support
+      - サポート
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 199
+      strings:
+      - Mouse
+      - Mouse
+      - マウス
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 200
+      strings:
+      - Key
+      - Key
+      - キー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 201
+      strings:
+      - Team
+      - Team
+      - チーム
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 202
+      strings:
+      - Piston
+      - Piston
+      - ピストン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 203
+      strings:
+      - Fuck
+      - Fuck
+      - ファック
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 204
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 205
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 206
+      strings:
+      - Character
+      - Character
+      - キャラクター
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 207
+      strings:
+      - Costume
+      - Costume
+      - 衣装
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 208
+      strings:
+      - Hair
+      - Hair
+      - 髪
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 209
+      strings:
+      - Hair Style
+      - Hair Style
+      - 髪型
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 210
+      strings:
+      - Pubic Hair
+      - Pubic Hair
+      - 陰毛
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 211
+      strings:
+      - Skin
+      - Skin
+      - 肌
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 212
+      strings:
+      - Nipple
+      - Nipple
+      - 乳首
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 213
+      strings:
+      - Eyes
+      - Eyes
+      - 目
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 214
+      strings:
+      - Custom Color
+      - Custom Color
+      - カスタムカラー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 215
+      strings:
+      - Hair Color
+      - Hair Color
+      - 髪カラー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 216
+      strings:
+      - Eyes Color
+      - Eyes Color
+      - 目カラー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 217
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 218
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 219
+      strings:
+      - Default
+      - Default
+      - デフォルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 220
+      strings:
+      - Custom
+      - Custom
+      - カスタム
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 221
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 222
+      strings:
+      - Item
+      - Item
+      - アイテム
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 223
+      strings:
+      - Cloth
+      - Cloth
+      - 布
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 224
+      strings:
+      - Gimmick
+      - Gimmick
+      - ギミック
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 225
+      strings:
+      - Feeler Doll
+      - Feeler Doll
+      - 触手人形
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 226
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 227
+      strings:
+      - Hide
+      - Hide
+      - 隠す
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 228
+      strings:
+      - Show
+      - Show
+      - 表示
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 229
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 230
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 231
+      strings:
+      - Preset
+      - Preset
+      - プリセット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 232
+      strings:
+      - Copy
+      - Copy
+      - コピー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 233
+      strings:
+      - Paste
+      - Paste
+      - ペースト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 234
+      strings:
+      - Key Skill
+      - Key Skill
+      - キースキル
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 235
+      strings:
+      - Mouse Skill
+      - Mouse Skill
+      - マウススキル
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 236
+      strings:
+      - KeySkillInfo
+      - 'Paste: Paste to the selected preset.'
+      - 'コピー: 選択中のプリセットからコピー'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 237
+      strings:
+      - MouseSkillInfo
+      - 'Copy: Copy the selected preset.'
+      - 'ペースト: コピーを選択中のプリセットにペースト'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 238
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 239
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 240
+      strings:
+      - Skill Tree
+      - Skill Tree
+      - スキルツリー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 241
+      strings:
+      - Bukkake
+      - Bukkake
+      - ぶっかけ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 242
+      strings:
+      - Bukkake+
+      - Bukkake+
+      - ぶっかけ+
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 243
+      strings:
+      - Bukkake++
+      - Bukkake++
+      - ぶっかけ++
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 244
+      strings:
+      - Spanking
+      - Spanking
+      - 引っ叩く
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 245
+      strings:
+      - Touch
+      - Touch
+      - おさわり
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 246
+      strings:
+      - Syringe
+      - Syringe
+      - 注入
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 247
+      strings:
+      - Stick
+      - Stick
+      - くっつく
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 248
+      strings:
+      - Suck
+      - Suck
+      - 吸い付く
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 249
+      strings:
+      - RubA
+      - RubA
+      - 弄りA
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 250
+      strings:
+      - RubB
+      - RubB
+      - 弄りB
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 251
+      strings:
+      - RubC
+      - RubC
+      - 弄りC
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 252
+      strings:
+      - RubD
+      - RubD
+      - 弄りD
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 253
+      strings:
+      - Bite
+      - Bite
+      - 噛みつき
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 254
+      strings:
+      - BiteA
+      - LickA
+      - 舐めるA
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 255
+      strings:
+      - BiteB
+      - LickB
+      - 舐めるB
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 256
+      strings:
+      - BiteC
+      - LickC
+      - 舐めるC
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 257
+      strings:
+      - BiteD
+      - LickD
+      - 舐めるD
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 258
+      strings:
+      - MobShot
+      - MobShot
+      - モブショット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 259
+      strings:
+      - MobTouch
+      - MobTouch
+      - モブタッチ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 260
+      strings:
+      - MobSpanking
+      - MobSpanking
+      - モブ叩き
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 261
+      strings:
+      - MobVolley
+      - MobVolley
+      - モブ一斉射撃
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 262
+      strings:
+      - TitsRub
+      - TitsRub
+      - おっぱい弄り
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 263
+      strings:
+      - TitsPress
+      - TitsPress
+      - おっぱいプレス
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 264
+      strings:
+      - TitsSuck
+      - TitsSuck
+      - おっぱい吸い
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 265
+      strings:
+      - VaginaRub
+      - VaginaRub
+      - おまんこ弄り
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 266
+      strings:
+      - HideEyes
+      - HideEyes
+      - 目隠し
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 267
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 268
+      strings:
+      - SqueezeMouse
+      - Squeeze
+      - 締め付け
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 269
+      strings:
+      - SqueezeKey
+      - Squeeze
+      - 締め付け
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 270
+      strings:
+      - UpperBind
+      - UpperBind
+      - 上部拘束
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 271
+      strings:
+      - LowerBind
+      - LowerBind
+      - 下部拘束
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 272
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 273
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 274
+      strings:
+      - T-Insert
+      - T-Insert
+      - 乳挿入
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 275
+      strings:
+      - T-Piston
+      - T-Piston
+      - 乳ピストン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 276
+      strings:
+      - T-Shoot
+      - T-Shoot
+      - 乳内射精
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 277
+      strings:
+      - M-Insert
+      - M-Insert
+      - 口挿入
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 278
+      strings:
+      - M-Piston
+      - M-Piston
+      - 口ピストン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 279
+      strings:
+      - M-Shoot
+      - M-Shoot
+      - 口内射精
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 280
+      strings:
+      - A-Insert
+      - A-Insert
+      - アナル挿入
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 281
+      strings:
+      - A-Piston
+      - A-Piston
+      - アナルピストン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 282
+      strings:
+      - A-Shoot
+      - A-Shoot
+      - アナル内射精
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 283
+      strings:
+      - V-Insert
+      - V-Insert
+      - 膣挿入
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 284
+      strings:
+      - V-Piston
+      - V-Piston
+      - 膣ピストン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 285
+      strings:
+      - V-Shoot
+      - V-Shoot
+      - 膣内射精
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 286
+      strings:
+      - V-Open
+      - V-Open
+      - おまんこ開閉
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 287
+      strings:
+      - A-Birth
+      - A-Birth
+      - アナル仔産み
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 288
+      strings:
+      - V-Birth
+      - V-Birth
+      - 膣仔産み
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 289
+      strings:
+      - Light
+      - Light
+      - ライト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 290
+      strings:
+      - GuildCard
+      - GuildCard
+      - ギルドカード
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 291
+      strings:
+      - Melt
+      - Melt
+      - 溶かす
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 292
+      strings:
+      - Restore
+      - Restore
+      - 復元
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 293
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 294
+      strings:
+      - Eater
+      - Eater
+      - イーター
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 295
+      strings:
+      - HorseRide
+      - HorseRide
+      - 馬乗り
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 296
+      strings:
+      - LimbHold
+      - LimbHold
+      - 四肢拘束
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 297
+      strings:
+      - WartBed
+      - WartBed
+      - いぼベッド
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 298
+      strings:
+      - WallHip
+      - WallHip
+      - 壁尻
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 299
+      strings:
+      - PillarBind
+      - PillarBind
+      - 柱拘束
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 300
+      strings:
+      - BackFuck
+      - BackFuck
+      - 後背位
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 301
+      strings:
+      - FrontFuck
+      - FrontFuck
+      - 正常位
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 302
+      strings:
+      - RideFuck
+      - RideFuck
+      - 騎乗位
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 303
+      strings:
+      - LiftFuck
+      - LiftFuck
+      - 駅弁
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 304
+      strings:
+      - SideFuck
+      - SideFuck
+      - 側位
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 305
+      strings:
+      - DoggyFuck
+      - DoggyFuck
+      - 四つん這い
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 306
+      strings:
+      - DisableAll
+      - DisableAll
+      - 全て解除
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 307
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 308
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 309
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 310
+      strings:
+      - Info Bukkake
+      - melt armor.
+      - 防具を溶かす。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 311
+      strings:
+      - Info Bukkake+
+      - melt to clothes.
+      - 服まで溶かす。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 312
+      strings:
+      - Info Bukkake++
+      - melt to underwear.
+      - 下着まで溶かす。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 313
+      strings:
+      - Info Spanking
+      - Aim and hit with a mouse hold.
+      - マウスホールドで狙いを定めて叩く。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 314
+      strings:
+      - Info Touch
+      - Touch the target when it is near.
+      - キャラが近づいたらおさわり。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 315
+      strings:
+      - Info Syringe
+      - Aim and inject with a mouse hold.
+      - マウスホールドで狙いを定めて刺す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 316
+      strings:
+      - Info Stick
+      - Charge into a character and stick.
+      - ぶつかってキャラクターにくっつく。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 317
+      strings:
+      - Info Suck
+      - Aim and suck with a mouse hold.
+      - マウスホールドで狙いを定めて吸う。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 318
+      strings:
+      - Info RubA
+      - Aim and rub with a mouse hold.
+      - マウスホールドで狙いを定めて弄る。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 319
+      strings:
+      - Info RubB
+      - Aim and rub with a mouse hold.
+      - マウスホールドで狙いを定めて弄る。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 320
+      strings:
+      - Info RubC
+      - Aim and rub with a mouse hold.
+      - マウスホールドで狙いを定めて弄る。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 321
+      strings:
+      - Info RubD
+      - Aim and rub with a mouse hold.
+      - マウスホールドで狙いを定めて弄る。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 322
+      strings:
+      - Info Bite
+      - Aim and bite with a mouse hold.
+      - マウスホールドで狙いを定めて噛みつく。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 323
+      strings:
+      - Info BiteA
+      - Aim and lick with a mouse hold.
+      - マウスホールドで狙いを定めて舐める。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 324
+      strings:
+      - Info BiteB
+      - Aim and lick with a mouse hold.
+      - マウスホールドで狙いを定めて舐める。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 325
+      strings:
+      - Info BiteC
+      - Aim and lick with a mouse hold.
+      - マウスホールドで狙いを定めて舐める。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 326
+      strings:
+      - Info BiteD
+      - Aim and lick with a mouse hold.
+      - マウスホールドで狙いを定めて舐める。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 327
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 328
+      strings:
+      - Info MobShot
+      - Bukkake from mobs.
+      - モブ達からのぶっかけ。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 329
+      strings:
+      - Info MobTouch
+      - Touch from mobs.
+      - モブ達からのおさわり。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 330
+      strings:
+      - Info MobSpanking
+      - Spanking from mobs.
+      - モブのスパンキング。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 331
+      strings:
+      - Info MobVolley
+      - Volley from mobs.
+      - モブ達からの一斉射撃。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 332
+      strings:
+      - Info TitsRub
+      - Tits kneading.
+      - 乳首をこねくり回す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 333
+      strings:
+      - Info TitsPress
+      - Tits pressing.
+      - おっぱいを押し付ける。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 334
+      strings:
+      - Info TitsSuck
+      - Tits sucking.
+      - おっぱいを吸う。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 335
+      strings:
+      - Info VaginaRub
+      - Vagina rubbing.
+      - おまんこを弄る。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 336
+      strings:
+      - Info HideEyes
+      - Hide eyes with feeler.
+      - 目を触手で隠す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 337
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 338
+      strings:
+      - Info SqueezeMouse
+      - Squeezing with a mouse hold.
+      - マウスホールドで締め付ける。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 339
+      strings:
+      - Info SqueezeKey
+      - Keep squeezing.
+      - ずっと締め付ける。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 340
+      strings:
+      - Info UpperBind
+      - Add upper bind feelers.
+      - 上半身の拘束を追加。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 341
+      strings:
+      - Info LowerBind
+      - Add lower bind feelers.
+      - 下半身の拘束を追加。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 342
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 343
+      strings:
+      - Info T-Insert
+      - Insert into the tits.
+      - 乳に挿入。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 344
+      strings:
+      - Info T-Piston
+      - Move in the tits.
+      - 乳にピストン。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 345
+      strings:
+      - Info T-Shoot
+      - Shoot into the tits.
+      - 乳に発射。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 346
+      strings:
+      - Info M-Insert
+      - Insert int the mouth.
+      - 口に挿入。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 347
+      strings:
+      - Info M-Piston
+      - Move in the mouth.
+      - 口にピストン。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 348
+      strings:
+      - Info M-Shoot
+      - Shoot into the mouth.
+      - 口に発射。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 349
+      strings:
+      - Info A-Insert
+      - Insert int the anal.
+      - アナルに挿入。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 350
+      strings:
+      - Info A-Piston
+      - Move in the anal.
+      - アナルにピストン。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 351
+      strings:
+      - Info A-Shoot
+      - Shoot into the anal.
+      - アナルに発射。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 352
+      strings:
+      - Info V-Insert
+      - Insert int the vagina.
+      - 膣内に挿入。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 353
+      strings:
+      - Info V-Piston
+      - Move in the vagina.
+      - 膣内にピストン。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 354
+      strings:
+      - Info V-Shoot
+      - Shoot into the vagina.
+      - 膣内に発射。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 355
+      strings:
+      - Info V-Open
+      - Spread the vagina.
+      - おまんこを開く。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 356
+      strings:
+      - Info A-Birth
+      - Birth from the anal.
+      - アナルから産む。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 357
+      strings:
+      - Info V-Birth
+      - Birth from the vagina.
+      - 膣から産む。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 358
+      strings:
+      - Info Light
+      - Turn off player light.
+      - プレイヤーライトをオフにする。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 359
+      strings:
+      - Info GuildCard
+      - Show Guild Card.
+      - ギルドカードを構える。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 360
+      strings:
+      - Info Melt
+      - Melt the unbroken costume on contact.
+      - ぶつかると壊れていない衣装を解かす。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 361
+      strings:
+      - Info Restore
+      - Restore the unbroken costume on contact.
+      - ぶつかると壊れていない衣装を復元する。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 362
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 363
+      strings:
+      - Info Eater
+      - Eat the character.
+      - キャラを食べる。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 364
+      strings:
+      - Info HorseRide
+      - The character rides a feeler horse.
+      - キャラを触馬に乗せる。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 365
+      strings:
+      - Info LimbHold
+      - Feelers bind the character's limbs.
+      - キャラの四肢を拘束する。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 366
+      strings:
+      - Info WartBed
+      - Lay the character on the bed.
+      - キャラをベッドに寝かす。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 367
+      strings:
+      - Info WallHip
+      - Put the character's hip in the wall.
+      - キャラを壁にハメる。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 368
+      strings:
+      - Info PillarBind
+      - Bind the character to the pillar.
+      - キャラを柱に拘束する。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 369
+      strings:
+      - Info BackFuck
+      - Fuck the character from behind.
+      - 背後からキャラを犯す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 370
+      strings:
+      - Info FrontFuck
+      - Fuck the character face to face.
+      - 前からキャラを犯す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 371
+      strings:
+      - Info RideFuck
+      - Fuck the character from underneath.
+      - 下からキャラを犯す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 372
+      strings:
+      - Info LiftFuck
+      - Lift and fuck.
+      - 抱えてキャラを犯す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 373
+      strings:
+      - Info SideFuck
+      - Fuck the character from the side.
+      - 横からキャラを犯す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 374
+      strings:
+      - Info DoggyFuck
+      - Fuck the character in doggy style.
+      - 四つん這いでキャラを犯す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 375
+      strings:
+      - Info DisableAll
+      - Disable Gimmick and FeelerDoll.
+      - ギミックと触手人形を解除。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 376
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 377
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 378
+      strings:
+      - SkillIconInfo
+      - 'L-Click: Use Key-Skill\nL-Drag&Drop: Skill Set\nR-Click:Quick Set'
+      - 左クリック:キースキル使用\n左ドラッグドロップ:スキルセット\n右クリック:クイック設定
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 379
+      strings:
+      - QuickMouse
+      - Click or Press to set.\nL/R-Click or Q/E-Key
+      - クリックとキーで設定\n左/右クリックかQ/Eキー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 380
+      strings:
+      - QuickKey
+      - Press to set.\n1-9 number key
+      - キーで設定\n１～９キー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 381
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 382
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 383
+      strings:
+      - Tits Piston
+      - Tits Piston
+      - おっぱいピストン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 384
+      strings:
+      - Mouth Piston
+      - Mouth Piston
+      - 口ピストン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 385
+      strings:
+      - Anal Piston
+      - Anal Piston
+      - 肛門ピストン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 386
+      strings:
+      - Vagina Piston
+      - Vagina Piston
+      - 膣ピストン
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 387
+      strings:
+      - Vagina Open
+      - Vagina Open
+      - おまんこ開閉
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 388
+      strings:
+      - Horse Speed
+      - Horse Speed
+      - 馬スピード
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 389
+      strings:
+      - Horse Power
+      - Horse Power
+      - 馬パワー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 390
+      strings:
+      - Hold Angle
+      - Hold Angle
+      - 拘束角度
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 391
+      strings:
+      - Bed Open
+      - Bed Open
+      - ベッド開閉
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 392
+      strings:
+      - Speed
+      - Speed
+      - スピード
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 393
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 394
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 395
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 396
+      strings:
+      - Adventurer
+      - Adventurer
+      - 冒険者
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 397
+      strings:
+      - Bunny
+      - Bunny
+      - バニー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 398
+      strings:
+      - Cow
+      - Cow
+      - 牝牛
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 399
+      strings:
+      - Golden
+      - Gold Armor
+      - 金色アーマー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 400
+      strings:
+      - Bikini
+      - Bikini
+      - ビキニ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 401
+      strings:
+      - Rags
+      - Rags
+      - ぼろ着
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 402
+      strings:
+      - SwimSuit
+      - SwimSuit
+      - 競泳水着
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 403
+      strings:
+      - RaceQueen
+      - Race
+      - レース
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 404
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 405
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 406
+      strings:
+      - Info Adventurer
+      - Change to the Adventurer costume.
+      - 冒険者衣装に変更。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 407
+      strings:
+      - Info Bunny
+      - Change to the Bunny costume.
+      - バニー衣装に変更。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 408
+      strings:
+      - Info Cow
+      - Change to the Cow costume.
+      - 牛衣装に変更。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 409
+      strings:
+      - Info Golden
+      - Change to the Gold Armor costume.
+      - 金色アーマーに変更。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 410
+      strings:
+      - Info Bikini
+      - Change to the Bikini costume.
+      - ビキニ衣装に変更。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 411
+      strings:
+      - Info Rags
+      - Change to the Rags costume.
+      - ぼろ着衣装に変更。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 412
+      strings:
+      - Info SwimSuit
+      - Change to the SwimSuit costume.
+      - 競泳水着衣装に変更。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 413
+      strings:
+      - Info RaceQueen
+      - Change to the RaceQueen costume.
+      - レースクイーン衣装に変更。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 414
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 415
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 416
+      strings:
+      - Brassiere
+      - Brassiere
+      - ブラジャー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 417
+      strings:
+      - Shorts
+      - Shorts
+      - ショーツ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 418
+      strings:
+      - Gloves
+      - Gloves
+      - グローブ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 419
+      strings:
+      - Stockings
+      - Stockings
+      - ストッキング
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 420
+      strings:
+      - Sweater
+      - Sweater
+      - セーター
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 421
+      strings:
+      - Boots
+      - Boots
+      - ブーツ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 422
+      strings:
+      - ArmGuards
+      - ArmGuards
+      - アームガード
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 423
+      strings:
+      - TitsBelt
+      - TitsBelt
+      - 乳ベルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 424
+      strings:
+      - Goggles
+      - Goggles
+      - ゴーグル
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 425
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 426
+      strings:
+      - ThiefCap
+      - ThiefCap
+      - シーフキャップ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 427
+      strings:
+      - FaceMask
+      - FaceMask
+      - フェイスマスク
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 428
+      strings:
+      - BackGurad
+      - BackGurad
+      - バックガード
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 429
+      strings:
+      - LeatherBelt
+      - LeatherBelt
+      - レザーベルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 430
+      strings:
+      - Gauntlets
+      - Gauntlets
+      - ガントレット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 431
+      strings:
+      - BrowPlate
+      - BrowPlate
+      - 額当て
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 432
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 433
+      strings:
+      - BunnyEar
+      - BunnyEar
+      - ウサ耳
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 434
+      strings:
+      - NetTights
+      - NetTights
+      - パンスト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 435
+      strings:
+      - BunnyTie
+      - BunnyTie
+      - 蝶ネクタイ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 436
+      strings:
+      - BunnyCuffs
+      - BunnyCuffs
+      - カフス
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 437
+      strings:
+      - BunnySuit
+      - BunnySuit
+      - バニースーツ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 438
+      strings:
+      - BunnyGloves
+      - BunnyGloves
+      - グローブ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 439
+      strings:
+      - BunnyShoes
+      - BunnyShoes
+      - シューズ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 440
+      strings:
+      - Jackets
+      - Jackets
+      - ジャケット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 441
+      strings:
+      - ThighRuffle
+      - ThighRuffle
+      - レッグフリル
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 442
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 443
+      strings:
+      - BikiniTop
+      - BikiniTop
+      - ビキニトップス
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 444
+      strings:
+      - BikiniBottom
+      - BikiniBottom
+      - ビキニボトムス
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 445
+      strings:
+      - CowGloves
+      - CowGloves
+      - 牛グローブ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 446
+      strings:
+      - CowStockings
+      - CowStockings
+      - 牛ストッキング
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 447
+      strings:
+      - CowHorn
+      - CowHorn
+      - 牛角
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 448
+      strings:
+      - NameTags
+      - NameTags
+      - ネームタグ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 449
+      strings:
+      - BreastBelt
+      - BreastBelt
+      - 乳ベルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 450
+      strings:
+      - TailBelt
+      - TailBelt
+      - しっぽベルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 451
+      strings:
+      - CowBell
+      - CowBell
+      - カウベル
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 452
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 453
+      strings:
+      - WaistBelt
+      - WaistBelt
+      - 腰ベルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 454
+      strings:
+      - ArmorBoots
+      - ArmorBoots
+      - アーマーブーツ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 455
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 456
+      strings:
+      - SunGlasses
+      - SunGlasses
+      - サングラス
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 457
+      strings:
+      - BellyBelt
+      - BellyBelt
+      - 腹ベルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 458
+      strings:
+      - ArmBelt
+      - ArmBelt
+      - アームベルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 459
+      strings:
+      - LegBelt
+      - LegBelt
+      - レッグベルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 460
+      strings:
+      - Pareo
+      - Pareo
+      - パレオ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 461
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 462
+      strings:
+      - Hoodie
+      - Hoodie
+      - パーカー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 463
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 464
+      strings:
+      - SimpleBra
+      - SimpleBra
+      - シンプルブラ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 465
+      strings:
+      - Drawers
+      - Drawers
+      - ドロワーズ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 466
+      strings:
+      - ArmBandage
+      - ArmBandage
+      - 腕包帯
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 467
+      strings:
+      - LegBandage
+      - LegBandage
+      - 足包帯
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 468
+      strings:
+      - EyeBandage
+      - EyeBandage
+      - 目包帯
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 469
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 470
+      strings:
+      - TubeTop
+      - TubeTop
+      - チューブトップ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 471
+      strings:
+      - OpenBust
+      - OpenBust
+      - 胸空き上着
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 472
+      strings:
+      - ShortSkirt
+      - ShortSkirt
+      - ショートスカート
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 473
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 474
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 475
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 476
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 477
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 478
+      strings:
+      - PoseA
+      - Default
+      - デフォルト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 479
+      strings:
+      - PoseB
+      - Hang
+      - 背吊り
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 480
+      strings:
+      - PoseC
+      - Pee Pee
+      - おしっこ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 481
+      strings:
+      - PoseD
+      - OneLeg R
+      - 右足立ち
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 482
+      strings:
+      - PoseE
+      - OneLeg L
+      - 左足立ち
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 483
+      strings:
+      - PoseF
+      - KneelingMilk
+      - 膝立ち
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 484
+      strings:
+      - PoseG
+      - CrossHold
+      - Xポーズ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 485
+      strings:
+      - PoseH
+      - TiltBack
+      - 後ろ傾き
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 486
+      strings:
+      - PoseI
+      - Squat
+      - スクワット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 487
+      strings:
+      - PoseJ
+      - BackCurve
+      - 背面反り
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 488
+      strings:
+      - PoseK
+      - StarFish
+      - 大の字
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 489
+      strings:
+      - PoseL
+      - HipSway
+      - お尻ふりふり
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 490
+      strings:
+      - PoseM
+      - SleepOnBack
+      - 仰向け
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 491
+      strings:
+      - PoseN
+      - SleepSide L
+      - 左向き寝
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 492
+      strings:
+      - PoseO
+      - SleepSide R
+      - 右向き寝
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 493
+      strings:
+      - PoseP
+      - SleepLegUp
+      - 足上げ寝
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 494
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 495
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 496
+      strings:
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 497
+      strings:
+      - Manual
+      - Manual
+      - マニュアル
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 498
+      strings:
+      - LookManual
+      - Check the manual?
+      - マニュアルを見ますか？
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 499
+      strings:
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 500
+      strings:
+      - Manual_Header1
+      - Camera Movement
+      - カメラ操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 501
+      strings:
+      - Manual_Header2
+      - Skill Controls
+      - スキル操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 502
+      strings:
+      - Manual_Header3
+      - Windows Controls
+      - 画面操作
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 503
+      strings:
+      - Manual_Header4
+      - Game Flow
+      - ゲームの流れ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 504
+      strings:
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 505
+      strings:
+      - Manual_Move
+      - ASDW-key:\nCamera Move
+      - ASDWキー:\nカメラ移動
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 506
+      strings:
+      - Manual_MoveR
+      - A-key/D-key/\nWhile Scrolling:\nCamera Move
+      - Aキー/Dキー/\nスクロール:\nカメラ移動
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 507
+      strings:
+      - Manual_Rotate
+      - Mouse Move:\nCamera Rotation
+      - マウス移動:\nカメラ回転
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 508
+      strings:
+      - Manual_Zoom
+      - While Scrolling:\nCamera Zoom
+      - スクロール:\nカメラズーム
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 509
+      strings:
+      - Manual_ZoomR
+      - W/S-key:\nCamera Zoom
+      - W/Sキー:\nカメラズーム
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 510
+      strings:
+      - Manual_Sprint
+      - Shift-key:\nHold to Sprint Move
+      - Shiftキー:\n押しながら移動でスプリント
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 511
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 512
+      strings:
+      - Manual_Mouse
+      - L/R-Click:\nUse Mouse Skill
+      - 左右クリック:\nマウススキル使用
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 513
+      strings:
+      - Manual_QE
+      - Q/E-Key:\nUse Mouse Skill (Sub Slot)
+      - Q/Eキー:\nマウススキル使用(サブ枠)
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 514
+      strings:
+      - Manual_Number
+      - Number-key:\nUse Key Skill
+      - ナンバーキー:\nキースキル使用
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 515
+      strings:
+      - Manual_Preset
+      - Preset Button:\nChange Skill Preset
+      - プリセットボタン:\nスキルのプリセットを変更
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 516
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 517
+      strings:
+      - Manual_Space
+      - Space-key:\nSwitch Cursor Mode
+      - スペースキー:\nカーソルモードの切り替え
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 518
+      strings:
+      - Manual_Character
+      - Y-key:\nOpen Character Window
+      - Yキー:\nキャラクター画面を開く
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 519
+      strings:
+      - Manual_Skill
+      - R-key:\nOpen Skill Window
+      - Rキー:\nスキル画面を開く
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 520
+      strings:
+      - Manual_Pose
+      - T-key:\nOpen Pose Window
+      - Tキー:\nポーズ画面を開く
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 521
+      strings:
+      - Manual_Costume
+      - Tab-key:\nOpen Costume Window
+      - Tabキー:\n衣装画面を開く
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 522
+      strings:
+      - Manual_Manual
+      - M-Key:\nOpen Manual
+      - Mキー:\nマニュアルを開く
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 523
+      strings:
+      - Manual_Camera
+      - G-key:\nHide GUI
+      - Gキー:\nGUIを隠す
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 524
+      strings:
+      - Manual_Job
+      - J-key:\nOpen Character Job List
+      - Jキー:\nジョブ画面を開く
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 525
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 526
+      strings:
+      - Manual_Flow1
+      - Play with Vein by using Bukkake or Skills.\nCompleting missions will add points to Job Rank.
+      - ぶっかけたりスキルを使ってヴェインと遊ぶ。\nミッションをクリアするとジョブランクに加点される。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 527
+      strings:
+      - Manual_Flow2
+      - From Cursor Mode, press the Stage End button.\nYou can end the stage even if you haven't cleared the mission.
+      - カーソルモードから、ステージ終了ボタンを押す。\nミッションはクリアしていなくても終了が可能。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 528
+      strings:
+      - Manual_Flow3
+      - After ending the stage, you'll move to the Play Result Screen.
+      - ステージ終了でプレイ後のリザルトへ移動。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 529
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 530
+      strings:
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 531
+      strings:
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 532
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 533
+      strings:
+      - Mission
+      - Mission
+      - ミッション
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 534
+      strings:
+      - Select Mission
+      - Select Mission
+      - ミッション選択
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 535
+      strings:
+      - Mission Complete
+      - Mission Complete
+      - ミッションクリア
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 536
+      strings:
+      - Clear
+      - Clear
+      - クリア
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 537
+      strings:
+      - '????'
+      - '????'
+      - '????'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 538
+      strings:
+      - '?'
+      - '?'
+      - '?'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 539
+      strings:
+      - Finish Stage
+      - Finish Stage
+      - ステージ終了
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 540
+      strings:
+      - FinishInfo
+      - Finish the stage?
+      - ステージを終了する？
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 541
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 542
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 543
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 544
+      strings:
+      - MissionBukkake
+      - Bukkake her.
+      - ぶっかける。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 545
+      strings:
+      - MissionNaked
+      - Make her nude.
+      - 全裸にする。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 546
+      strings:
+      - MissionLevelUp
+      - Level up.
+      - レベルを上げる。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 547
+      strings:
+      - MissionSpanking
+      - Spank her.
+      - スパンキングする。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 548
+      strings:
+      - MissionSyringe
+      - Pierce with syringe.
+      - 注射を刺す。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 549
+      strings:
+      - MissionTouch
+      - Touch with feeler.
+      - 触手でタッチする。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 550
+      strings:
+      - MissionPiston
+      - Piston anywhere.
+      - ピストンする。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 551
+      strings:
+      - MissionLostVirsin
+      - Take her virginity.
+      - 処女を奪う。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 552
+      strings:
+      - MissionOrgasm
+      - Make her climax.
+      - 絶頂させる。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 553
+      strings:
+      - MissionChild
+      - Birth a child.
+      - 仔を産ませる。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 554
+      strings:
+      - MissionMilk
+      - Collect her milk.
+      - ミルクを集める。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 555
+      strings:
+      - MissionPeeHerself
+      - Make her pee.
+      - おしっこを漏らさせる。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 556
+      strings:
+      - MissionCollideTits
+      - Bump into her tits.
+      - おっぱいにぶつかる。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 557
+      strings:
+      - MissionCollideHip
+      - Bump into her hips.
+      - お尻にぶつかる。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 558
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 559
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 560
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 561
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 562
+      strings:
+      - PlayQuestion
+      - Play again?
+      - 再度プレイする？
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 563
+      strings:
+      - 'Liquid:'
+      - 'Liquid:'
+      - '液体:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 564
+      strings:
+      - 'Flesh:'
+      - 'Flesh:'
+      - '身体:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 565
+      strings:
+      - 'Genitals:'
+      - 'Genitals:'
+      - '恥部:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 566
+      strings:
+      - 'Score:'
+      - 'Score:'
+      - '判定:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 567
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 568
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 569
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 570
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 571
+      strings:
+      - QuestHeader
+      - Feeler Agreement
+      - 触手に関する同意書
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 572
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 573
+      strings:
+      - QuestBody1
+      - I am an adult.
+      - 私は成人しています。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 574
+      strings:
+      - QuestBody2
+      - I consent to sexual actions.
+      - 性的な行為を許可します。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 575
+      strings:
+      - QuestBody3
+      - I agree to physical restraint.
+      - '拘束されることを受け入れます。  '
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 576
+      strings:
+      - QuestBody4
+      - I may lose my virginity.
+      - '処女を失う場合があります。  '
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 577
+      strings:
+      - QuestBody5
+      - I may become pregnant.
+      - '妊娠する可能性があります。  '
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 578
+      strings:
+      - QuestBody6
+      - I understand and accept all of this.
+      - 上記すべてを理解して同意します。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 579
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 580
+      strings:
+      - QuestBody7
+      - The body will be magically reset after play.
+      - プレイ終了後、身体は魔法で元の状態に戻ります。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 581
+      strings:
+      - QuestBody8
+      - '*No physical changes will remain.'
+      - ※身体への影響は一切残りません。
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 582
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 583
+      strings:
+      - QuestNameHeader
+      - Signature Section
+      - 署名欄
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 584
+      strings:
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 585
+      strings:
+      - Agree
+      - Agree
+      - 同意
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 586
+      strings:
+      - Front
+      - Front
+      - 受付
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 587
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 588
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 589
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 590
+      strings:
+      - Vein Lurk
+      - Vein Lurk
+      - ヴェイン・ルーク
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 591
+      strings:
+      - RANK
+      - RANK
+      - ランク
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 592
+      strings:
+      - JOB
+      - JOB
+      - ジョブ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 593
+      strings:
+      - Job List
+      - Job List
+      - ジョブリスト
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 594
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 595
+      strings:
+      - Thief
+      - Thief
+      - シーフ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 596
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 597
+      strings:
+      - Liquid
+      - Liquid
+      - 液体
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 598
+      strings:
+      - Milk Device
+      - Milk Device
+      - ミルク装置
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 599
+      strings:
+      - Milking Tool
+      - Milking Tool
+      - 搾乳器
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 600
+      strings:
+      - Milk Bottle
+      - Milk Bottle
+      - 牛乳瓶
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 601
+      strings:
+      - Toy
+      - Toy
+      - おもちゃ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 602
+      strings:
+      - Trash
+      - Trash
+      - ごみ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 603
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 604
+      strings:
+      - Flesh
+      - Flesh
+      - 身体
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 605
+      strings:
+      - Flesh Lump
+      - Flesh Lump
+      - 肉塊
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 606
+      strings:
+      - Bitch
+      - Bitch
+      - ビッチ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 607
+      strings:
+      - Doll
+      - Doll
+      - 人形
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 608
+      strings:
+      - Pet
+      - Pet
+      - ペット
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 609
+      strings:
+      - Junk
+      - Junk
+      - ジャンク品
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 610
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 611
+      strings:
+      - Genitals
+      - Genitals
+      - 恥部
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 612
+      strings:
+      - Breeding Unit
+      - Breeding Unit
+      - 繁殖母体
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 613
+      strings:
+      - Public Use
+      - Public Use
+      - 肉便器
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 614
+      strings:
+      - Partner
+      - Partner
+      - パートナー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 615
+      strings:
+      - Used Hole
+      - Used Hole
+      - 使用済み
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 616
+      strings:
+      - Waste
+      - Waste
+      - 廃棄物
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 617
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 618
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 619
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 620
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 621
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 622
+      strings:
+      - 'Bukkake:'
+      - 'Bukkake:'
+      - 'ぶっかけ:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 623
+      strings:
+      - 'Body:'
+      - 'Body:'
+      - '身体:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 624
+      strings:
+      - 'Head:'
+      - 'Head:'
+      - '頭:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 625
+      strings:
+      - 'Tits:'
+      - 'Tits:'
+      - 'おっぱい:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 626
+      strings:
+      - 'Hip:'
+      - 'Hip:'
+      - 'お尻:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 627
+      strings:
+      - 'Vagina:'
+      - 'Vagina:'
+      - 'おまんこ:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 628
+      strings:
+      - 'Anal:'
+      - 'Anal:'
+      - 'アナル:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 629
+      strings:
+      - 'Child:'
+      - 'Child:'
+      - '仔触手:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 630
+      strings:
+      - 'Milk:'
+      - 'Milk:'
+      - 'ミルク:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 631
+      strings:
+      - 'Orgasm:'
+      - 'Orgasm:'
+      - '絶頂:'
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 632
+      strings:
+      - Virgin
+      - Virgin
+      - 処女
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 633
+      strings:
+      - Not a Virgin
+      - Not a Virgin
+      - 非処女
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 634
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 635
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 636
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+    - rowIndex: 637
+      strings:
+      - O_Shoot0
+      - SPLAT
+      - びゅるっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 638
+      strings:
+      - O_Shoot1
+      - GUSH
+      - どぴゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 639
+      strings:
+      - O_Shoot2
+      - SPURT
+      - びゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 640
+      strings:
+      - O_Shoot3
+      - SPLAAAT
+      - びゅるるっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 641
+      strings:
+      - O_Shoot4
+      - GUUUSH
+      - どぴゅううっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 642
+      strings:
+      - O_Shoot5
+      - SPUUURT
+      - びゅびゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 643
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 644
+      strings:
+      - O_SpermHit0
+      - Glop
+      - どろっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 645
+      strings:
+      - O_SpermHit1
+      - SPLAT
+      - ぬちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 646
+      strings:
+      - O_SpermHit2
+      - SLOSH
+      - ぐちょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 647
+      strings:
+      - O_SpermHit3
+      - PLOP
+      - べとっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 648
+      strings:
+      - O_SpermHit4
+      - SLURP
+      - ぬるっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 649
+      strings:
+      - O_SpermHit5
+      - SQUISH
+      - べちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 650
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 651
+      strings:
+      - O_Bind0
+      - GRIP
+      - ぎゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 652
+      strings:
+      - O_Bind1
+      - GRIIIP
+      - ぎゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 653
+      strings:
+      - O_Bind2
+      - BIND
+      - ぎゅぎゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 654
+      strings:
+      - O_Bind3
+      - BIIIND
+      - ぐっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 655
+      strings:
+      - O_Bind4
+      - WRAP
+      - ぐぐっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 656
+      strings:
+      - O_Bind5
+      - WRAAAP
+      - ぐぐーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 657
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 658
+      strings:
+      - O_Spanking0
+      - SLAP
+      - ぱしんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 659
+      strings:
+      - O_Spanking1
+      - SPANK
+      - べしんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 660
+      strings:
+      - O_Spanking2
+      - SMACK
+      - ぺちんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 661
+      strings:
+      - O_Spanking3
+      - WHAP
+      - ぱちんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 662
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 663
+      strings:
+      - O_Touch0
+      - TAP
+      - さわっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 664
+      strings:
+      - O_Touch1
+      - PAT
+      - さわさわっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 665
+      strings:
+      - O_Touch2
+      - PET
+      - なでっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 666
+      strings:
+      - O_Touch3
+      - SLIP
+      - なでなでっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 667
+      strings:
+      - O_Touch4
+      - STROKE
+      - すりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 668
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 669
+      strings:
+      - O_Rub0
+      - SLURP
+      - くちゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 670
+      strings:
+      - O_Rub1
+      - 'SQUISH '
+      - くちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 671
+      strings:
+      - O_Rub2
+      - SMOOCH
+      - くちゅりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 672
+      strings:
+      - O_Rub3
+      - CHU
+      - ちゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 673
+      strings:
+      - O_Rub4
+      - SLOSH
+      - ちゅりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 674
+      strings:
+      - O_Rub5
+      - MWAH
+      - くちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 675
+      strings:
+      - O_Rub6
+      - GLORP
+      - くちゃあ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 676
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 677
+      strings:
+      - O_Bite0
+      - NIP
+      - かぷっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 678
+      strings:
+      - O_Bite1
+      - CHOMP
+      - がぶっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 679
+      strings:
+      - O_Bite2
+      - GNASH
+      - がぶりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 680
+      strings:
+      - O_Bite3
+      - SNAP
+      - かぷりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 681
+      strings:
+      - O_Bite4
+      - MUNCH
+      - かぷーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 682
+      strings:
+      - O_Bite5
+      - BITE
+      - がぶーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 683
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 684
+      strings:
+      - O_Lick0
+      - LICK
+      - ぺろっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 685
+      strings:
+      - O_Lick1
+      - LAP
+      - ぺろぺろっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 686
+      strings:
+      - O_Lick2
+      - SLURP
+      - ぺろりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 687
+      strings:
+      - O_Lick3
+      - FLOP
+      - ぺろんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 688
+      strings:
+      - O_Lick4
+      - SLOSH
+      - ぺろーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 689
+      strings:
+      - O_Lick5
+      - LAAAP
+      - ぺろろっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 690
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 691
+      strings:
+      - O_SyringeShot0
+      - PRICK
+      - ぷすっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 692
+      strings:
+      - O_SyringeShot1
+      - STING
+      - ぷすりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 693
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 694
+      strings:
+      - O_SyringeHit0
+      - SQUISH
+      - ちゅー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 695
+      strings:
+      - O_SyringeHit1
+      - SQUIIISH
+      - ちゅちゅー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 696
+      strings:
+      - O_SyringeHit2
+      - SPURT
+      - ぶしゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 697
+      strings:
+      - O_SyringeHit3
+      - SPUUURT
+      - ぶしゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 698
+      strings:
+      - O_SyringeHit4
+      - BLORT
+      - ぶちゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 699
+      strings:
+      - O_SyringeHit5
+      - BLOOORT
+      - ぶちゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 700
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 701
+      strings:
+      - O_SyringeDrop0
+      - CLINK
+      - からんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 702
+      strings:
+      - O_SyringeDrop1
+      - CLUNK
+      - かちゃんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 703
+      strings:
+      - O_SyringeDrop2
+      - TINK
+      - かちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 704
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 705
+      strings:
+      - O_Bounce0
+      - BOING
+      - ぽよっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 706
+      strings:
+      - O_Bounce1
+      - BOIIING
+      - ぽよんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 707
+      strings:
+      - O_Bounce2
+      - FWUMP
+      - ぽよよんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 708
+      strings:
+      - O_Bounce3
+      - FWUUUMP
+      - ぽよよっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 709
+      strings:
+      - O_Bounce4
+      - PLOP
+      - ぷにっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 710
+      strings:
+      - O_Bounce5
+      - PLOOOP
+      - ぷにょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 711
+      strings:
+      - O_Bounce6
+      - FLOMP
+      - ぷよんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 712
+      strings:
+      - O_Bounce7
+      - FLOOOMP
+      - ぷよよんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 713
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 714
+      strings:
+      - O_Stick0
+      - STICK
+      - ぺたんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 715
+      strings:
+      - O_Stick1
+      - STIIICK
+      - ぺとっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 716
+      strings:
+      - O_Stick2
+      - GLUE
+      - ぺとりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 717
+      strings:
+      - O_Stick3
+      - GLUUUE
+      - ぺったり
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 718
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 719
+      strings:
+      - O_Jelly0
+      - FLOAT
+      - ふわっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 720
+      strings:
+      - O_Jelly1
+      - SWAY
+      - ふわふわ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 721
+      strings:
+      - O_Jelly2
+      - WAFT
+      - ふわりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 722
+      strings:
+      - O_Jelly3
+      - FLUTTER
+      - ゆらっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 723
+      strings:
+      - O_Jelly4
+      - FLUFF
+      - ゆらゆら
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 724
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 725
+      strings:
+      - O_JellyLight0
+      - ZAP
+      - びりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 726
+      strings:
+      - O_JellyLight1
+      - BUZZ
+      - びりびりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 727
+      strings:
+      - O_JellyLight2
+      - JOLT
+      - ばちっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 728
+      strings:
+      - O_JellyLight3
+      - CRACK
+      - ばちちっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 729
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 730
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 731
+      strings:
+      - O_JellyCanon0
+      - MURMUR
+      - きゅーんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 732
+      strings:
+      - O_JellyCanon1
+      - RUMBLE
+      - きゅいーんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 733
+      strings:
+      - O_JellyCanon2
+      - HUM
+      - ぎゅーんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 734
+      strings:
+      - O_JellyCanon3
+      - THRUM
+      - ぎゅいーんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 735
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 736
+      strings:
+      - O_JellyShot0
+      - POOF
+      - ぽしゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 737
+      strings:
+      - O_JellyShot1
+      - BOOM
+      - ぽしゅんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 738
+      strings:
+      - O_JellyShot2
+      - POP
+      - ぽんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 739
+      strings:
+      - O_JellyShot3
+      - POW
+      - ぽーんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 740
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 741
+      strings:
+      - O_JellyFook0
+      - SQUISH
+      - ぐにぐに
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 742
+      strings:
+      - O_JellyFook1
+      - MUSH
+      - ぐにっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 743
+      strings:
+      - O_JellyFook2
+      - WOBBLE
+      - ぐねぐね
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 744
+      strings:
+      - O_JellyFook3
+      - GLOP
+      - ぐねっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 745
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 746
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 747
+      strings:
+      - O_SuckFit0
+      - PLAP
+      - ぴとっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 748
+      strings:
+      - O_SuckFit1
+      - SQUISH
+      - ぺとっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 749
+      strings:
+      - O_SuckFit2
+      - PLIP
+      - ぴたんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 750
+      strings:
+      - O_SuckFit3
+      - POP
+      - すぽっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 751
+      strings:
+      - O_SuckFit4
+      - SNAP
+      - ちゅぽっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 752
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 753
+      strings:
+      - O_Suck0
+      - SUCK
+      - ちゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 754
+      strings:
+      - O_Suck1
+      - MWAH
+      - ぎゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 755
+      strings:
+      - O_Suck2
+      - SMACK
+      - ぎゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 756
+      strings:
+      - O_Suck3
+      - POP
+      - ちゅぽっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 757
+      strings:
+      - O_Suck4
+      - SLURP
+      - じゅるっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 758
+      strings:
+      - O_Suck5
+      - SUCKLE
+      - じゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 759
+      strings:
+      - O_Suck6
+      - SMACK
+      - ちゅぱっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 760
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 761
+      strings:
+      - O_SuckTits0
+      - SUCK
+      - ちゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 762
+      strings:
+      - O_SuckTits1
+      - MWAH
+      - ぎゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 763
+      strings:
+      - O_SuckTits2
+      - SMACK
+      - ぎゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 764
+      strings:
+      - O_SuckTits3
+      - POP
+      - ちゅぽっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 765
+      strings:
+      - O_SuckTits4
+      - SLURP
+      - じゅるっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 766
+      strings:
+      - O_SuckTits5
+      - SUCKLE
+      - じゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 767
+      strings:
+      - O_SuckTits6
+      - SMACK
+      - ちゅぱっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 768
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 769
+      strings:
+      - O_SuckMilk0
+      - 'WHOOSH '
+      - ぶしゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 770
+      strings:
+      - O_SuckMilk1
+      - SPLURT
+      - ぶしゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 771
+      strings:
+      - O_SuckMilk2
+      - SPLASH
+      - ぶしゃあっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 772
+      strings:
+      - O_SuckMilk3
+      - SQUIRT
+      - ぷしゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 773
+      strings:
+      - O_SuckMilk4
+      - PUFF
+      - ぷしゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 774
+      strings:
+      - O_SuckMilk5
+      - BURST
+      - ぶしょーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 775
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 776
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 777
+      strings:
+      - O_MilkDrip0
+      - GLOP
+      - どぼどぼっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 778
+      strings:
+      - O_MilkDrip1
+      - GLUG
+      - どぼぼっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 779
+      strings:
+      - O_MilkDrip2
+      - GLUGGLE
+      - だばだばっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 780
+      strings:
+      - O_MilkDrip3
+      - SLOSH
+      - だばばっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 781
+      strings:
+      - O_MilkDrip4
+      - SPLOOSH
+      - じゃばばっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 782
+      strings:
+      - O_MilkDrip5
+      - SPLASH
+      - じゃばーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 783
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 784
+      strings:
+      - O_MilkTank0
+      - SPLASH
+      - ばしゃんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 785
+      strings:
+      - O_MilkTank1
+      - SPLISH
+      - ばちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 786
+      strings:
+      - O_MilkTank2
+      - SPLOSH
+      - ばちゃちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 787
+      strings:
+      - O_MilkTank3
+      - SPLOOSH
+      - ばちゃーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 788
+      strings:
+      - O_MilkTank4
+      - PLOP
+      - ぼちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 789
+      strings:
+      - O_MilkTank5
+      - DROP
+      - ぼちゃんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 790
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 791
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 792
+      strings:
+      - O_VaginaOpen0
+      - SQUELCH
+      - くぱぁっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 793
+      strings:
+      - O_VaginaOpen1
+      - SMACK
+      - くぱっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 794
+      strings:
+      - O_VaginaOpen2
+      - SLURP
+      - くちゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 795
+      strings:
+      - O_VaginaOpen3
+      - SPLURT
+      - くちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 796
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 797
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 798
+      strings:
+      - O_EaterOpen0
+      - GLOMP
+      - がぱっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 799
+      strings:
+      - O_EaterOpen1
+      - BURST
+      - がぽっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 800
+      strings:
+      - O_EaterOpen2
+      - GUSH
+      - がぽんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 801
+      strings:
+      - O_EaterOpen3
+      - CLAMP
+      - がばっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 802
+      strings:
+      - O_EaterOpen4
+      - YAWN
+      - がばーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 803
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 804
+      strings:
+      - O_EaterEating0
+      - MUNCH
+      - もぐもぐっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 805
+      strings:
+      - O_EaterEating1
+      - CHEW
+      - もぐっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 806
+      strings:
+      - O_EaterEating2
+      - CHOMP
+      - もちゃもちゃ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 807
+      strings:
+      - O_EaterEating3
+      - NIBBLE
+      - もちっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 808
+      strings:
+      - O_EaterEating4
+      - CHEW
+      - もちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 809
+      strings:
+      - O_EaterEating5
+      - GOBBLE
+      - もしゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 810
+      strings:
+      - O_EaterEating6
+      - CRUNCH
+      - もしゃりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 811
+      strings:
+      - O_EaterEating7
+      - CHEEEW
+      - もしゃもしゃ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 812
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 813
+      strings:
+      - O_HorseRide0
+      - TREMBLE
+      - ゆらっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 814
+      strings:
+      - O_HorseRide1
+      - WOBBLE
+      - ゆらゆらっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 815
+      strings:
+      - O_HorseRide2
+      - NUDGE
+      - ゆさっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 816
+      strings:
+      - O_HorseRide3
+      - JIGGLE
+      - ゆさゆさっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 817
+      strings:
+      - O_HorseRide4
+      - SHAKE
+      - ぐらっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 818
+      strings:
+      - O_HorseRide5
+      - SHUDDER
+      - ぐらぐらっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 819
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 820
+      strings:
+      - O_CoralSteam0
+      - HISS
+      - ぶしゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 821
+      strings:
+      - O_CoralSteam1
+      - WHOOSH
+      - ぷしゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 822
+      strings:
+      - O_CoralSteam2
+      - PUFF
+      - しゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 823
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 824
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 825
+      strings:
+      - O_WartBed0
+      - SQUISH
+      - ぐにぐに
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 826
+      strings:
+      - O_WartBed1
+      - MUSH
+      - ぐにっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 827
+      strings:
+      - O_WartBed2
+      - GLURP
+      - ぐにょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 828
+      strings:
+      - O_WartBed3
+      - WOBBLE
+      - ぐねぐね
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 829
+      strings:
+      - O_WartBed4
+      - GLOP
+      - ぐねっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 830
+      strings:
+      - O_WartBed5
+      - PLORP
+      - ぐにょんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 831
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 832
+      strings:
+      - O_WartBedOpen0
+      - GRUNT
+      - ぐっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 833
+      strings:
+      - O_WartBedOpen1
+      - CREAK
+      - ぐぐぐっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 834
+      strings:
+      - O_WartBedOpen2
+      - 'SQUEEZE '
+      - ぐーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 835
+      strings:
+      - O_WartBedOpen3
+      - GRIND
+      - ぐぐーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 836
+      strings:
+      - O_WartBedOpen4
+      - CLAMP
+      - ぐんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 837
+      strings:
+      - O_WartBedOpen5
+      - SQUELCH
+      - ぐーんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 838
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 839
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 840
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 841
+      strings:
+      - O_CostumeChange0
+      - TWINKLE
+      - きらきら
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 842
+      strings:
+      - O_CostumeChange1
+      - GLINT
+      - きらっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 843
+      strings:
+      - O_CostumeChange2
+      - TING
+      - きーんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 844
+      strings:
+      - O_CostumeChange3
+      - PING
+      - きららっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 845
+      strings:
+      - O_CostumeChange4
+      - GLEAM
+      - きらりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 846
+      strings:
+      - O_CostumeChange5
+      - SPARK
+      - きらんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 847
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 848
+      strings:
+      - O_CostumeWear0
+      - FLUMP
+      - ぱさっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 849
+      strings:
+      - O_CostumeWear1
+      - FLAP
+      - ばさっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 850
+      strings:
+      - O_CostumeWear2
+      - RUSTLE
+      - がさっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 851
+      strings:
+      - O_CostumeWear3
+      - SHUFFLE
+      - ごそっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 852
+      strings:
+      - O_CostumeWear4
+      - SWISH
+      - かさっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 853
+      strings:
+      - O_CostumeWear5
+      - FUMBLE
+      - もぞっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 854
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 855
+      strings:
+      - O_CostumeBreak0
+      - RIP
+      - びりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 856
+      strings:
+      - O_CostumeBreak1
+      - TEAR
+      - びりびりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 857
+      strings:
+      - O_CostumeBreak2
+      - SPLIT
+      - びびっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 858
+      strings:
+      - O_CostumeBreak3
+      - SNAP
+      - びりーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 859
+      strings:
+      - O_CostumeBreak4
+      - SNAG
+      - びりりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 860
+      strings:
+      - O_CostumeBreak5
+      - SHRED
+      - びりぃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 861
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 862
+      strings:
+      - O_CostumeMelt0
+      - GLOP
+      - どろっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 863
+      strings:
+      - O_CostumeMelt1
+      - OOZE
+      - どろぉ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 864
+      strings:
+      - O_CostumeMelt2
+      - SLOSH
+      - どろどろ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 865
+      strings:
+      - O_CostumeMelt3
+      - GLORP
+      - どろんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 866
+      strings:
+      - O_CostumeMelt4
+      - DRIBBLE
+      - どろーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 867
+      strings:
+      - O_CostumeMelt5
+      - SPLURT
+      - どろろっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 868
+      strings:
+      - O_CostumeMelt6
+      - MELT
+      - どろぉー
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 869
+      strings:
+      - O_CostumeMelt7
+      - SLURP
+      - どろろぉ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 870
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 871
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 872
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 873
+      strings:
+      - O_WetSteam0
+      - WHOOSH
+      - むわっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 874
+      strings:
+      - O_WetSteam1
+      - WAFT
+      - むわぁ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 875
+      strings:
+      - O_WetSteam2
+      - FUME
+      - むわーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 876
+      strings:
+      - O_WetSteam3
+      - HISS
+      - むわぁーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 877
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 878
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 879
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 880
+      strings:
+      - O_Dloplets0
+      - SPLASH
+      - ぷしゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 881
+      strings:
+      - O_Dloplets1
+      - SPRITZ
+      - ぷしゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 882
+      strings:
+      - O_Dloplets2
+      - SPRAY
+      - ぷしっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 883
+      strings:
+      - O_Dloplets3
+      - SPRITZ
+      - ぷしょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 884
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 885
+      strings:
+      - O_Splash0
+      - GUSH
+      - ぶしゃーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 886
+      strings:
+      - O_Splash1
+      - SPURT
+      - ぶしゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 887
+      strings:
+      - O_Splash2
+      - SQUIRT
+      - ぶしょーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 888
+      strings:
+      - O_Splash3
+      - BURST
+      - ぶっしゃーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 889
+      strings:
+      - O_Splash4
+      - SPRAY
+      - ぶっしょーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 890
+      strings:
+      - O_Splash5
+      - SPLASH
+      - ぶしょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 891
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 892
+      strings:
+      - O_Pee0
+      - STREAM
+      - じょーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 893
+      strings:
+      - O_Pee1
+      - POUR
+      - じょばーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 894
+      strings:
+      - O_Pee2
+      - FLOW
+      - じょろろっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 895
+      strings:
+      - O_Pee3
+      - SPLASH
+      - じょばばっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 896
+      strings:
+      - O_Pee4
+      - DRIBBLE
+      - じょろーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 897
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 898
+      strings:
+      - O_LostVirsin0
+      - SNAP
+      - ぶちっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 899
+      strings:
+      - O_LostVirsin1
+      - RIP
+      - ぶちちっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 900
+      strings:
+      - O_LostVirsin2
+      - TEAR
+      - ぶちぃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 901
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 902
+      strings:
+      - O_Blood0
+      - DRIP
+      - ぽとっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 903
+      strings:
+      - O_Blood1
+      - DRIBBLE
+      - ぽととっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 904
+      strings:
+      - O_Blood2
+      - 'PLOP '
+      - ぽちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 905
+      strings:
+      - O_Blood3
+      - TRICKLE
+      - ぽとんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 906
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 907
+      strings:
+      - O_Globs0
+      - SQUELCH
+      - ぐちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 908
+      strings:
+      - O_Globs1
+      - SLURP
+      - ぐちゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 909
+      strings:
+      - O_Globs2
+      - SQUISH
+      - ぐちょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 910
+      strings:
+      - O_Globs3
+      - THRUST
+      - ずっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 911
+      strings:
+      - O_Globs4
+      - SLICK
+      - ずずっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 912
+      strings:
+      - O_Globs5
+      - SLOSH
+      - ぬちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 913
+      strings:
+      - O_Globs6
+      - SLIDE
+      - ぬるっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 914
+      strings:
+      - O_Globs7
+      - 'POP '
+      - ずぼっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 915
+      strings:
+      - O_Globs8
+      - PLIP
+      - ぬぷっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 916
+      strings:
+      - O_Globs9
+      - PLUNGE
+      - じゅぷっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 917
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 918
+      strings:
+      - O_Shot0
+      - BURST
+      - どぴゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 919
+      strings:
+      - O_Shot1
+      - EJECT
+      - どぴゅぴゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 920
+      strings:
+      - O_Shot2
+      - SPLURT
+      - どぴゅんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 921
+      strings:
+      - O_Shot3
+      - SHOOT
+      - どぴゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 922
+      strings:
+      - O_Shot4
+      - SQUIRT
+      - どぴゅぴゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 923
+      strings:
+      - O_Shot5
+      - EJACULATE
+      - びゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 924
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 925
+      strings:
+      - O_CreamPie0
+      - PLAP
+      - どろっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 926
+      strings:
+      - O_CreamPie1
+      - OOZE
+      - どろぉーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 927
+      strings:
+      - O_CreamPie2
+      - SLOP
+      - どろりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 928
+      strings:
+      - O_CreamPie3
+      - DRIP
+      - どろーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 929
+      strings:
+      - O_CreamPie4
+      - SQUELCH
+      - どろどろっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 930
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 931
+      strings:
+      - O_Drip0
+      - DRIP
+      - ぽとっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 932
+      strings:
+      - O_Drip1
+      - PLIP
+      - ぽとりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 933
+      strings:
+      - O_Drip2
+      - DROP
+      - ぽたっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 934
+      strings:
+      - O_Drip3
+      - GLOP
+      - ぽたりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 935
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 936
+      strings:
+      - O_ChildSpawn0
+      - BLOP
+      - ぶぼっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 937
+      strings:
+      - O_ChildSpawn1
+      - BLAT
+      - ぶばっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 938
+      strings:
+      - O_ChildSpawn2
+      - THWOP
+      - ぶじょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 939
+      strings:
+      - O_ChildSpawn3
+      - SPLURT
+      - ぶじゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 940
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 941
+      strings:
+      - O_ChildDrop0
+      - SPLAT
+      - べちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 942
+      strings:
+      - O_ChildDrop1
+      - GLOP
+      - べちょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 943
+      strings:
+      - O_ChildDrop2
+      - PLONK
+      - べちゃんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 944
+      strings:
+      - O_ChildDrop3
+      - BLORP
+      - べちょんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 945
+      strings:
+      - O_ChildDrop4
+      - SQUELCH
+      - べちょり
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 946
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 947
+      strings:
+      - O_ChildDig0
+      - RUMBLE
+      - ごそっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 948
+      strings:
+      - O_ChildDig1
+      - RUSTLE
+      - ごそごそっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 949
+      strings:
+      - O_ChildDig2
+      - CRAWL
+      - がさっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 950
+      strings:
+      - O_ChildDig3
+      - SCURRY
+      - がさがさっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 951
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 952
+      strings:
+      - O_ChildGlow0
+      - GLURCH
+      - ぬるっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 953
+      strings:
+      - O_ChildGlow1
+      - SLOSH
+      - ぬちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 954
+      strings:
+      - O_ChildGlow2
+      - GLORP
+      - ぬちょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 955
+      strings:
+      - O_ChildGlow3
+      - SCHLURP
+      - ぬちゃりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 956
+      strings:
+      - O_ChildGlow4
+      - OOZE
+      - ぬるりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 957
+      strings:
+      - O_ChildGlow5
+      - SLICK
+      - ぬるんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 958
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 959
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 960
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 961
+      strings:
+      - O_TMP0
+      - SPURT
+      - びゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 962
+      strings:
+      - O_TMP1
+      - SQUIRT
+      - ぴゅっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 963
+      strings:
+      - O_TMP2
+      - GUSH
+      - びゅるっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 964
+      strings:
+      - O_TMP3
+      - DRIBBLE
+      - ぴゅるっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 965
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 966
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 967
+      strings:
+      - O_Breath0
+      - HUFF
+      - はぁっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 968
+      strings:
+      - O_Breath1
+      - WHOOF
+      - はーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 969
+      strings:
+      - O_Breath2
+      - PUFF
+      - ふぅ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 970
+      strings:
+      - O_Breath3
+      - WHEW
+      - ふーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 971
+      strings:
+      - O_Breath4
+      - HAH
+      - はっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 972
+      strings:
+      - O_Breath5
+      - HAAH
+      - はぁ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 973
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 974
+      strings:
+      - O_BreathHard0
+      - HUFF
+      - はっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 975
+      strings:
+      - O_BreathHard1
+      - HAAH
+      - はぁ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 976
+      strings:
+      - O_BreathHard2
+      - PUFF
+      - ふっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 977
+      strings:
+      - O_BreathHard3
+      - PANT
+      - はーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 978
+      strings:
+      - O_BreathHard4
+      - 'HAAHH '
+      - ぜぇ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 979
+      strings:
+      - O_BreathHard5
+      - HAFH
+      - はふっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 980
+      strings:
+      - O_BreathHard6
+      - AAHH
+      - あっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 981
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 982
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 983
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 984
+      strings:
+      - O_Dizzy0
+      - WHIRR
+      - くらっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 985
+      strings:
+      - O_Dizzy1
+      - ZAP
+      - ちかっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 986
+      strings:
+      - O_Dizzy2
+      - FIZZ
+      - ちかりっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 987
+      strings:
+      - O_Dizzy3
+      - FLICKER
+      - ちかちかっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 988
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 989
+      strings:
+      - O_Heart0
+      - WOOZY
+      - ぽわぁ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 990
+      strings:
+      - O_Heart1
+      - POMF
+      - ぽわっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 991
+      strings:
+      - O_Heart2
+      - POOF
+      - ぽわわっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 992
+      strings:
+      - O_Heart3
+      - PLOOF
+      - ぽわんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 993
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 994
+      strings:
+      - O_OverHeat0
+      - HISS
+      - しゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 995
+      strings:
+      - O_OverHeat1
+      - PSHH
+      - ぷしゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 996
+      strings:
+      - O_OverHeat2
+      - PSSHHH
+      - ぷっしゅーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 997
+      strings:
+      - O_OverHeat3
+      - WHOOSH
+      - ぷしゃーっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 998
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 999
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+    - rowIndex: 1000
+      strings:
+      - O_WaterDrop0
+      - SPLAT
+      - びちょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1001
+      strings:
+      - O_WaterDrop1
+      - SPLASH
+      - びちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1002
+      strings:
+      - O_WaterDrop2
+      - SLOSH
+      - びしょっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1003
+      strings:
+      - O_WaterDrop3
+      - PLOP
+      - ぽちゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1004
+      strings:
+      - O_WaterDrop4
+      - PLIP
+      - ぽちゃんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1005
+      strings:
+      - O_WaterDrop5
+      - DROP
+      - ぽたんっ
+      isEmpty: 0
+      isCommentOut: 0
+    - rowIndex: 1006
+      strings:
+      - O_WaterDrop6
+      - SPLISH
+      - ぱしゃっ
+      isEmpty: 0
+      isCommentOut: 0
+    name: Assets/MyUtage/Scenarios/MyUtage.xls:Localize
+    type: 1
+    textLength: 21247
+    headerRow: 0
+  customDataList: []

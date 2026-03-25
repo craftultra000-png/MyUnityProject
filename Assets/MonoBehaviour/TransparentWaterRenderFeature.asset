@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50509384e1ca4b34162a53ce6b9bc509, type: 3}
+  m_Name: TransparentWaterRenderFeature
+  m_EditorClassIdentifier:
+  m_Active: 1
+  _renderTargetId: _RenderMetaballsRT
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  _blurMaterial: {fileID: 2100000, guid: 62689aa93dfcd5945b8f3375cc80248a, type: 2}
+  _blitMaterial: {fileID: 2100000, guid: 843914f0c4c8a734b924547fe55104e7, type: 2}
+  _blurPasses: 5
