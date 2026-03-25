@@ -1,10 +1,18 @@
-name: Ultimate License Finder
+name: Space Optimized License Finder
 on: [push, workflow_dispatch]
 
 jobs:
   get_alf:
     runs-on: ubuntu-latest
     steps:
+      - name: Free Disk Space
+        run: |
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /usr/local/lib/android
+          sudo rm -rf /opt/ghc
+          sudo rm -rf "/usr/local/share/boost"
+          sudo rm -rf "$AGENT_TOOLSDIRECTORY"
+
       - name: Checkout Repository
         uses: actions/checkout@v4
 
