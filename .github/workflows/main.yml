@@ -1,19 +1,25 @@
-name: Unity License Discovery
+name: Ultimate License Finder
 on: [push, workflow_dispatch]
 
 jobs:
-  get_license:
+  get_alf:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate Activation File (ALF)
-        uses: game-ci/unity-request-activation-file@v2
-        with:
-          unityVersion: 2022.3.62f2
+      - name: Generate ALF via Docker
+        run: |
+          docker run --rm \
+          -v "$(pwd):/project" \
+          unityci/editor:ubuntu-2022.3.62f2-android-3.1.0 \
+          unity-editor \
+          -batchmode \
+          -nographics \
+          -createManualActivationFile \
+          -logfile /dev/stdout
 
-      - name: Display ALF in Logs
+      - name: Read ALF File
         run: |
           cat *.alf
           echo "Copy the XML text above!"
