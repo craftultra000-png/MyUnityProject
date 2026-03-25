@@ -1,0 +1,41 @@
+name: Unity Build & License
+on: [push, workflow_dispatch] # سيظهر لك زر تشغيل يدوي أيضاً
+jobs:
+  activation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Request Activation File
+        uses: game-ci/unity-request-activation-file@v2
+        with:
+          unityVersion: 2022.3.62f2
+
+      - name: Upload ALF
+        uses: actions/upload-artifact@v4
+        with:
+          name: My-Unity-ALF
+          path: ./*.alf
+
+  build:
+    needs: activation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Unity Builder
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          targetPlatform: Android
+          unityVersion: 2022.3.62f2
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Game-APK
+          path: build/Android
+          
