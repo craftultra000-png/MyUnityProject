@@ -1,4 +1,4 @@
-name: Space Optimized License Finder
+name: Ultimate License Finder
 on: [push, workflow_dispatch]
 
 jobs:
@@ -10,11 +10,12 @@ jobs:
           sudo rm -rf /usr/share/dotnet
           sudo rm -rf /usr/local/lib/android
           sudo rm -rf /opt/ghc
-          sudo rm -rf "/usr/local/share/boost"
-          sudo rm -rf "$AGENT_TOOLSDIRECTORY"
 
       - name: Checkout Repository
         uses: actions/checkout@v4
+
+      - name: Fix Permissions
+        run: chmod -R 777 .
 
       - name: Generate ALF via Docker
         run: |
@@ -25,10 +26,11 @@ jobs:
           -batchmode \
           -nographics \
           -createManualActivationFile \
+          -projectPath /project \
           -logfile /dev/stdout
 
       - name: Read ALF File
         run: |
-          cat *.alf
+          cat *.alf || cat /home/runner/*.alf || echo "File not found yet"
           echo "Copy the XML text above!"
           
