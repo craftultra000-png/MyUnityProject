@@ -1,22 +1,26 @@
-name: Unity Build & License
-on: [push, workflow_dispatch] # سيظهر لك زر تشغيل يدوي أيضاً
+name: Unity License Finder
+on: [push, workflow_dispatch]
 jobs:
-  activation:
+  get_license:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Request Activation File
-        uses: game-ci/unity-request-activation-file@v2
-        with:
-          unityVersion: 2022.3.62f2
+      - name: Generate ALF
+        run: |
+          docker run --rm \
+          -v "$(pwd):/project" \
+          unityci/editor:ubuntu-2022.3.62f2-android-3.1.0 \
+          unity-editor \
+          -batchmode \
+          -nographics \
+          -createManualActivationFile \
+          -logfile /dev/stdout
 
-      - name: Upload ALF
-        uses: actions/upload-artifact@v4
-        with:
-          name: My-Unity-ALF
-          path: ./*.alf
+      - name: Inspect Logs
+        run: ls -R
+        
 
   build:
     needs: activation
