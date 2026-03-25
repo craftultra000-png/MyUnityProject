@@ -1,0 +1,32 @@
+name: Build Android APK
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Cache Library
+        uses: actions/cache@v3
+        with:
+          path: Library
+          key: Library-Android
+
+      - name: Unity Builder
+        uses: game-ci/unity-builder@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          targetPlatform: Android
+          unityVersion: 2022.3.62f2
+          androidAppBundle: false # ليخرج ملف APK وليس AAB
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: Game-APK
+          path: build/Android
+          
