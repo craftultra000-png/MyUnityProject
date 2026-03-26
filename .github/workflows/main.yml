@@ -1,13 +1,31 @@
-name: Force Get License XML
+name: Super Clean Build
 on: [push, workflow_dispatch]
 jobs:
-  get_xml:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Free Disk Space (The Big Clean)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: false # نترك الأندرويد لأننا نحتاجه للبناء
+
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Force Generate ALF Text
-        run: |
-          docker run --rm -v "$(pwd):/project" unityci/editor:ubuntu-2022.3.62f2-android-3.1.0 \
-          unity-editor -batchmode -nographics -createManualActivationFile -logfile /dev/stdout
+      - name: Unity Builder
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_EMAIL: ${{ secrets.craftultra000@gmail.com }}
+          UNITY_PASSWORD: ${{ secrets.mohamd86645024 }}
+        with:
+          targetPlatform: Android
+          unityVersion: 2022.3.62f2
+          androidExportType: 'androidPackage'
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Game-APK
+          path: build/Android
+          
