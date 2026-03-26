@@ -1,8 +1,7 @@
-name: Direct License Finder
+name: Get Unity License File
 on: [push, workflow_dispatch]
-
 jobs:
-  get_alf:
+  get_license:
     runs-on: ubuntu-latest
     steps:
       - name: Free Space
@@ -11,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Force Generate ALF to Console
+      - name: Generate ALF
         run: |
           docker run --rm \
           -v "$(pwd):/project" \
@@ -20,9 +19,14 @@ jobs:
           -batchmode \
           -nographics \
           -createManualActivationFile \
-          -logfile /dev/stdout | tee unity_log.txt
+          -logfile /dev/stdout
+          
+          # البحث عن الملف ونسخه لمجلد المشروع ليتم رفعه
+          sudo find / -name "*.alf" -exec cp {} . \;
 
-      - name: Extract XML from Log
-        run: |
-          grep -oP '(?<=<UnifiedLicenseRequest>).*?(?=</UnifiedLicenseRequest>)' unity_log.txt || cat unity_log.txt
-          echo "Look for the XML block above!"
+      - name: Upload ALF
+        uses: actions/upload-artifact@v4
+        with:
+          name: Unity-Activation-File
+          path: ./*.alf
+          
