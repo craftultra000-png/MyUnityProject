@@ -1,23 +1,20 @@
-name: Get License XML Directly
+name: Generate Unity Activation File
 on: [push, workflow_dispatch]
 jobs:
-  get_xml:
+  get_alf:
     runs-on: ubuntu-latest
     steps:
-      - name: Free Space
-        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Generate License Request
-        run: |
-          docker run --rm \
-          -v "$(pwd):/project" \
-          unityci/editor:ubuntu-2022.3.62f2-android-3.1.0 \
-          unity-editor \
-          -batchmode -nographics -createManualActivationFile -logfile /dev/stdout
-      - name: Print XML to Screen
-        run: |
-          echo "========= COPY START ========="
-          cat *.alf
-          echo "========= COPY END ========="
+
+      - name: Request Manual Activation File
+        uses: game-ci/unity-request-activation-file@v2
+        with:
+          unityVersion: 2022.3.62f2
+
+      - name: Upload Activation File
+        uses: actions/upload-artifact@v4
+        with:
+          name: Unity-Activation-File
+          path: ./*.alf
           
