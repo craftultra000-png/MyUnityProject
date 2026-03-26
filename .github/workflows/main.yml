@@ -1,32 +1,23 @@
-name: Ultimate License Finder
+name: Get License XML Directly
 on: [push, workflow_dispatch]
 jobs:
-  get_license:
+  get_xml:
     runs-on: ubuntu-latest
     steps:
       - name: Free Space
         run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
-
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Fix Permissions
-        run: chmod -R 777 .
-
-      - name: Force Generate ALF to Project
+      - name: Generate License Request
         run: |
           docker run --rm \
           -v "$(pwd):/project" \
           unityci/editor:ubuntu-2022.3.62f2-android-3.1.0 \
           unity-editor \
-          -batchmode \
-          -nographics \
-          -createManualActivationFile \
-          -manualActivationFile /project/Unity.alf \
-          -logfile /dev/stdout
-
-      - name: Upload ALF Result
-        uses: actions/upload-artifact@v4
-        with:
-          name: Unity-Activation-File
-          path: Unity.alf
+          -batchmode -nographics -createManualActivationFile -logfile /dev/stdout
+      - name: Print XML to Screen
+        run: |
+          echo "========= COPY START ========="
+          cat *.alf
+          echo "========= COPY END ========="
+          
