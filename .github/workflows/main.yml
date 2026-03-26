@@ -1,4 +1,4 @@
-name: Get Unity License File
+name: Ultimate License Finder
 on: [push, workflow_dispatch]
 jobs:
   get_license:
@@ -10,7 +10,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate ALF
+      - name: Fix Permissions
+        run: chmod -R 777 .
+
+      - name: Force Generate ALF to Project
         run: |
           docker run --rm \
           -v "$(pwd):/project" \
@@ -19,14 +22,11 @@ jobs:
           -batchmode \
           -nographics \
           -createManualActivationFile \
+          -manualActivationFile /project/Unity.alf \
           -logfile /dev/stdout
-          
-          # البحث عن الملف ونسخه لمجلد المشروع ليتم رفعه
-          sudo find / -name "*.alf" -exec cp {} . \;
 
-      - name: Upload ALF
+      - name: Upload ALF Result
         uses: actions/upload-artifact@v4
         with:
           name: Unity-Activation-File
-          path: ./*.alf
-          
+          path: Unity.alf
