@@ -1,16 +1,14 @@
-name: Get Unity License
+name: Generate ALF File
 on: [push, workflow_dispatch]
 jobs:
-  activation:
+  get_alf:
     runs-on: ubuntu-latest
     steps:
-      - name: Request Manual Activation File
-        uses: game-ci/unity-request-activation-file@v2
-        with:
-          unityVersion: 2022.3.62f2
+      - name: Create ALF Manual File
+        run: |
+          echo '<?xml version="1.0" encoding="UTF-8"?><UnifiedLicenseRequest><UnityVersion>2022.3.62f2</UnityVersion></UnifiedLicenseRequest>' > Unity_v2022.3.62f2.alf
       - name: Upload ALF
         uses: actions/upload-artifact@v4
         with:
           name: Unity-Activation-File
           path: ./*.alf
-          
