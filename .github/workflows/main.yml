@@ -1,32 +1,16 @@
-name: Build Android APK
+name: Get Unity License
 on: [push, workflow_dispatch]
 jobs:
-  build:
+  activation:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - name: Request Manual Activation File
+        uses: game-ci/unity-request-activation-file@v2
         with:
-          fetch-depth: 0
-
-      - name: Unity - Builder
-        uses: game-ci/unity-builder@v4
-        env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
-        with:
-          targetPlatform: Android
           unityVersion: 2022.3.62f2
-          androidExportType: 'androidPackage'
-          androidKeystoreName: user.keystore
-          androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
-          androidKeyaliasName: ${{ secrets.ANDROID_KEYALIAS_NAME }}
-          androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
-
-      - name: Upload APK
+      - name: Upload ALF
         uses: actions/upload-artifact@v4
         with:
-          name: Game-APK
-          path: build/Android
+          name: Unity-Activation-File
+          path: ./*.alf
+          
