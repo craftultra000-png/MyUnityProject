@@ -1,15 +1,19 @@
-name: Get Full Unity License
+name: Generate Manual License
 on: [push, workflow_dispatch]
 jobs:
-  activation:
+  get_alf:
     runs-on: ubuntu-latest
     steps:
-      - name: Request Manual Activation File
-        uses: game-ci/unity-request-activation-file@v2
+      - name: Request ALF
+        uses: game-ci/unity-builder@v2
         with:
+          targetPlatform: Android
           unityVersion: 2022.3.62f2
-      - name: Upload ALF Artifact
+          # هذه الخطوة ستفشل عمداً لتخرج لك الرابط
+      - name: Upload ALF
         uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: Unity-Full-ALF
+          name: Unity-Manual-ALF
           path: ./*.alf
+          
