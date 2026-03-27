@@ -1,31 +1,22 @@
-name: Ultimate Serial Build
+name: Get Unity ULF License
 on: [push, workflow_dispatch]
 jobs:
-  build:
+  get_ulf:
     runs-on: ubuntu-latest
     steps:
-      - name: Free Disk Space
-        uses: jlumbroso/free-disk-space@main
-        with:
-          tool-cache: true
-          android: false
-
-      - name: Checkout Repository
+      - name: Free Space
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
+      
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Unity Builder
+      - name: Activate and Print License
         uses: game-ci/unity-builder@v4
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
         with:
           targetPlatform: Android
           unityVersion: 2022.3.62f2
-          androidExportType: 'androidPackage'
-
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: Game-APK
-          path: build/Android
+          # هنا سيحاول البرنامج التفعيل، حتى لو فشل البناء سيعطينا ملف الرخصة
+          
