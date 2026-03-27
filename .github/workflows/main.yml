@@ -1,16 +1,13 @@
-name: Get Unity ULF License
+name: Get Unity License Text
 on: [push, workflow_dispatch]
 jobs:
-  get_ulf:
+  get_license:
     runs-on: ubuntu-latest
     steps:
-      - name: Free Space
-        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
-      
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Activate and Print License
+      - name: Activate and Print XML
         uses: game-ci/unity-builder@v4
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -18,5 +15,5 @@ jobs:
         with:
           targetPlatform: Android
           unityVersion: 2022.3.62f2
-          # هنا سيحاول البرنامج التفعيل، حتى لو فشل البناء سيعطينا ملف الرخصة
+          # سيحاول التفعيل ويطبع الخطأ المحتوي على النص
           
