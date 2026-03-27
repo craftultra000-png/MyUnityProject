@@ -1,13 +1,16 @@
-name: Get Unity License Text
+name: Direct Unity Build
 on: [push, workflow_dispatch]
 jobs:
-  get_license:
+  build:
     runs-on: ubuntu-latest
     steps:
+      - name: Free Space
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
+
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Activate and Print XML
+      - name: Unity Builder
         uses: game-ci/unity-builder@v4
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -15,5 +18,5 @@ jobs:
         with:
           targetPlatform: Android
           unityVersion: 2022.3.62f2
-          # سيحاول التفعيل ويطبع الخطأ المحتوي على النص
-          
+          androidExportType: 'androidPackage'
+          allowDirtyBuild: true
